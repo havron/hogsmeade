@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<div class="container">
+
+  <h1>The page requested was not found...</h1>
+  <p>Maybe you were looking for one of these?</p>
+
+  <h2>Recent Posts</h2>
+  {{ range last 20 (where .Data.Pages "Section" "=" "blog") }}
+  <ul>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  </ul>
+  {{ end }}
+
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

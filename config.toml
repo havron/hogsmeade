@@ -1,0 +1,250 @@
+baseurl = "https://havron.xyz"
+title = "sam havron"
+copyright = "by Sam Havron. All rights reserved."
+languageCode = "en-us"
+theme = "academic"
+enableEmoji = true
+
+[author]
+name = "Samuel Havron"
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+author = "authors"
+# hack by year sorting... ;)
+2016 = "2016"
+2017 = "2017"
+[permalinks]
+# Change the permalink format for the 'post' content type.
+# This defines how your folder is structured
+# post = "/:year/:month/:title/"
+post = "/blog/:year/:title/"
+blog = "/blog/:year/:title/"
+copyright = "Unless otherwise specified by the author, this work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+
+
+[params]
+repository="https://github.com/samuelhavron/hogsmeade"
+layoutReverse = true
+themeColor = "theme-base-0b"
+description = "webpages of Sam Havron, computer science student"
+dateFormat = "Monday, 2 January, 2006"
+  name = "Sam Havron"
+  role = "Undergraduate Student"
+  organization = "University of Virginia"
+  avatar = "me.jpg"
+  email = "echo @virginia.edu | sed 's/^/havron/'"
+  address = "Charlottesville, Virginia (VA), United States"
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = "samh"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = true
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = ["custom-nomin.css"]
+
+  custom_js  = []
+
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+
+  [[params.social]]
+    icon = "home"
+    icon_pack = "fa"
+    link = "/"
+
+
+  [[params.social]]
+    icon = "pencil"
+    icon_pack = "fa"
+    link = "/blog/"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/samhavron"
+    tab = true
+
+  #[[params.social]]
+  #  icon = "google-scholar"
+  #  icon_pack = "ai"
+  #  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/samuelhavron"
+    tab = true
+
+  [[params.social]]
+    icon = "key"
+    icon_pack = "fa"
+    link = "//keybase.io/samh"
+    tab = true
+
+  [[params.social]]
+    icon = "coffee"
+    icon_pack = "fa"
+    link = "//goo.gl/q592xs"
+    tab = true
+
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+# Menu Navigation Items
+[[menu.main]]
+name = "research"
+pre = '<i class="fa fa-cogs" aria-hidden="true"></i>'
+weight = -110
+identifier = "research-1"
+url = "/research/"
+
+[[menu.main]]
+name = "about me"
+pre = '<i class="fa fa-user-circle-o" aria-hidden="true"></i>'
+weight = -100
+identifier = "about me-1"
+url = "/about/"
+
+[[menu.main]]
+name = "blog"
+weight = -10
+pre = '<i class="fa fa-pencil" aria-hidden="true"></i>'
+identifier = "blog-1"
+url = "/blog/"
+
+[[menu.main]]
+name = "teaching"
+pre = '<i class="fa fa-terminal" aria-hidden="true"></i>'
+weight = -80
+identifier = "teaching-1"
+url = "/teaching/"
+
+[[menu.main]]
+name = "courses"
+weight = -70
+pre = '<i class="fa fa-institution" aria-hidden="true"></i>'
+identifier = "courses-1"
+url = "/courses/"
+
+
+[[menu.main]]
+name = "fun"
+weight = -40
+pre = '<i class="fa fa-smile-o" aria-hidden="true"></i>'
+identifier = "fun-1"
+url = "/fun/"
+
+
+
+
+
+
+[[menu.blog]]
+name = "about me"
+pre = '<i class="fa fa-user-circle-o" aria-hidden="true"></i>'
+weight = 100
+identifier = "about me-1"
+url = "/about/"
+
+
+[[menu.blog]]
+name = "main site"
+pre = '<i class="fa fa-level-up" aria-hidden="true"></i>'
+weight = -80
+identifier = "teaching-1"
+url = "/"
+
+[[menu.blog]]
+name = "tags"
+weight = -70
+pre = '<i class="fa fa-tags" aria-hidden="true"></i>'
+identifier = "tags-1"
+url = "/tags/"
+
+
+[[menu.blog]]
+name = "cats"
+weight = -40
+pre = '<i class="fa fa-book" aria-hidden="true"></i>'
+identifier = "cats-1"
+url = "/categories/"
+
+
+
+
+#[[menu.main]]
+#name = "github"
+#weight = 60
+#pre = '<i class="fa fa-github" aria-hidden="true"></i>'
+#identifier = "github-1"
+#url = "https://github.com/samuelhavron/hogsmeade"
+
+
+# [[menu.main]]
+#   name = "Home"
+#   url = "#top"
+#   weight = 1
+# 
+# [[menu.main]]
+#   name = "Publications"
+#   url = "#publications"
+#   weight = 2
+# 
+# [[menu.main]]
+#   name = "Posts"
+#   url = "#posts"
+#   weight = 3
+# 
+# [[menu.main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 4
+# 
+# [[menu.main]]
+#   name = "Teaching"
+#   url = "#teaching"
+#   weight = 5
+# 
+# [[menu.main]]
+#   name = "Contact"
+#   url = "#contact"
+#   weight = 6
