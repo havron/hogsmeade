@@ -1,0 +1,31 @@
+baseurl = "http://people.virginia.edu/~sgh7cc/"
+languageCode = "en-us"
+title = "Sam Havron"
+canonifyUrls = "true"
+
+[params]
+    description = "Welcome! You've reached my landing page. Check out my actual site below:"
+    custom_css = ["css/local.css"]
+
+[[params.social]]
+    title = "Web"
+    icon = "home"
+    url = "https://havron.xyz"
+
+[[params.social]]
+    title = "email"
+    icon = "envelope-o"
+    url = "https://havron.xyz/#contact"
+
+[[params.social]]
+    title = "twitter"
+    icon = "twitter"
+    url = "https://twitter.com/samhavron"
+[[params.social]]
+    title = "keybase"
+    icon = "key"
+    url = "https://keybase.io/samh"
+[[params.social]]
+    title = "github"
+    icon = "github"
+    url = "https://github.com/samuelhavron"
