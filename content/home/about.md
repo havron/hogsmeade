@@ -29,12 +29,12 @@ weight = 0
 +++
 
 # Welcome
-
-Hi, I'm Sam Havron! I'm a computer science undergraduate and proud [Resident
-Advisor](http://www.virginia.edu/housing/programs.php?id=ra) of 22 first-year
-students at the [University of Virginia](http://www.virginia.edu/). I am an
-active member of the [Mountain View Parish](http://www.mvplutherans.org/) and
-aspire to learn and practice my faith in God as a Lutheran every day.
+Hi, I'm Sam Havron! I am a student,
+[mindful](https://en.wikipedia.org/wiki/Mindfulness) 
+long-distance runner, avid [Rustacean](http://rustaceans.org/), 
+community band amateur, and active member of the [Mountain View Parish](http://www.mvplutherans.org/).
+*"We are mirrors whose brightness is wholly derived from the sun that shines upon
+us."* - C.S. Lewis
 
 You're welcome to browse around at your leisure, and [get in touch with
 me](/about) if you'd like to chat! ([PGP {{<fa
