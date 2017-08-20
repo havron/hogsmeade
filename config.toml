@@ -6,7 +6,7 @@ theme = "academic"
 enableEmoji = true
 
 [author]
-name = "Samuel Havron"
+name = "Sam Havron"
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
@@ -34,17 +34,18 @@ copyright = "Unless otherwise specified by the author, this work is licensed und
 
 
 [params]
-repository="https://github.com/samuelhavron/hogsmeade"
+repository="https://github.com/havron/hogsmeade"
 layoutReverse = true
 themeColor = "theme-base-0b"
 description = "webpages of Sam Havron, computer science student"
 dateFormat = "Monday, 2 January, 2006"
   name = "Sam Havron"
-  role = "Undergraduate Student"
-  organization = "University of Virginia"
+  role = "CS PhD Student (Year One)"
+  organization = "302 Gates Hall @ Cornell"
+  # organization = "Cornell (Ithaca/New York City)"
   avatar = "me.jpg"
-  email = "echo @virginia.edu | sed 's/^/havron/'"
-  address = "Charlottesville, Virginia (VA), United States"
+  email = "echo @cs.cornell.edu | sed 's/^/havron/'"
+  address = "302 Gates Hall, Cornell University, Ithaca NY 14853"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "samh"
@@ -65,7 +66,6 @@ dateFormat = "Monday, 2 January, 2006"
   custom_css = ["custom-nomin.css"]
 
   custom_js  = []
-
 
   # Social/Academic Networking
   #
@@ -111,7 +111,13 @@ dateFormat = "Monday, 2 January, 2006"
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/samuelhavron"
+    link = "//github.com/havron"
+    tab = true
+
+  [[params.social]]
+    icon = "coffee"
+    icon_pack = "fa"
+    link = "//havron.youcanbook.me"
     tab = true
 
   [[params.social]]
@@ -120,14 +126,9 @@ dateFormat = "Monday, 2 January, 2006"
     link = "//keybase.io/samh"
     tab = true
 
-  [[params.social]]
-    icon = "coffee"
-    icon_pack = "fa"
-    link = "//goo.gl/q592xs"
-    tab = true
-
 # Navigation Links
 #   The weight parameter defines the order that the links will appear in.
+
 
 # Menu Navigation Items
 [[menu.main]]
@@ -138,11 +139,18 @@ identifier = "research-1"
 url = "/research/"
 
 [[menu.main]]
-name = "about me"
-pre = '<i class="fa fa-user-circle-o" aria-hidden="true"></i>'
+name = "bio"
+pre = '<i class="fa fa-newspaper-o" aria-hidden="true"></i>'
+weight = -109
+identifier = "about me-2"
+url = "/bio/"
+
+[[menu.main]]
+name = "trivia"
+pre = '<i class="fa fa-quote-right" aria-hidden="true"></i>'
 weight = -100
 identifier = "about me-1"
-url = "/about/"
+url = "/trivia/"
 
 [[menu.main]]
 name = "blog"
@@ -158,24 +166,12 @@ weight = -80
 identifier = "teaching-1"
 url = "/teaching/"
 
-[[menu.main]]
-name = "courses"
-weight = -70
-pre = '<i class="fa fa-institution" aria-hidden="true"></i>'
-identifier = "courses-1"
-url = "/courses/"
-
-
-[[menu.main]]
-name = "fun"
-weight = -40
-pre = '<i class="fa fa-smile-o" aria-hidden="true"></i>'
-identifier = "fun-1"
-url = "/fun/"
-
-
-
-
+#[[menu.main]]
+#name = "courses"
+#weight = -70
+#pre = '<i class="fa fa-institution" aria-hidden="true"></i>'
+#identifier = "courses-1"
+#url = "/courses/"
 
 
 [[menu.blog]]

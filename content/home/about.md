@@ -11,11 +11,11 @@ weight = 0
 
 # List your academic interests.
 [interests]
-  title = "Interests"
+  title = "Research Interests"
   interests = [
     "Computer Security and Privacy",
-    "Human-Computer Interaction and Usable Security",
-    "Applied Cryptography"
+    "Computation for Underserved Communities",
+    "Human-Computer Interaction and Usable Security"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -23,23 +23,44 @@ weight = 0
   title = "Education"
 
 [[education.courses]]
-  course = "B.S. in Computer Science"
-  institution = "University of Virginia (three years)"
+  course = "PhD in Computer Science"
+  institution = "Cornell University"
+  year = "~2023"
+[[education.courses]]
+  course = "MS in Computer Science"
+  institution = "Cornell University"
+  year = "~2019"
+[[education.courses]]
+  course = "BSc in Computer Science"
+  institution = "University of Virginia"
   year = 2017
 +++
 
 # Welcome
-Hi, I'm Sam Havron! I am a student,
-[mindful](https://en.wikipedia.org/wiki/Mindfulness) 
-long-distance runner, avid [Rustacean](http://rustaceans.org/), 
-community band amateur, and active member of the [Mountain View Parish](http://www.mvplutherans.org/).
+Hiya, thanks for connecting over [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)! Right now, I am probably practicing the art of
+expressing formal injunctions or [spewing cringeworthy quotes](https://quotes.cs.cornell.edu/).
+I am an apprentice of [Tom Ristenpart](https://rist.tech.cornell.edu) and
+[Nicki Dell](http://nixdell.com); under their guidance, I'm learning how to become an
+effective researcher and a strong advocate for socio-technical progress.
+
+<!--
 *"We are mirrors whose brightness is wholly derived from the sun that shines upon
 us."* - C.S. Lewis
+-->
 
-You're welcome to browse around at your leisure, and [get in touch with
-me](/about) if you'd like to chat! ([PGP {{<fa
-key>}} available if preferred](https://keybase.io/samh)). 
-For [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)-averse folks: 
-browsing with `cURL`/Lynx/RSS feed/etc is doable, though perhaps you would be better off 
-searching the site's 
-[{{<fa github>}} GitHub repository](https://github.com/samuelhavron/hogsmeade) directly.
+## Contacting Me
+I fluctuate my studies between [upstate New
+York](https://www.cs.cornell.edu/information/ithaca) and 
+[New York City](https://tech.cornell.edu).
+A simple, auditable channel for secure communication with me [{{<fa
+key>}}is available](https://keybase.io/samh) and encouraged for the cautious and privacy-minded. I am also addressable
+by my _lastname_ at my [department domain](https://ddg.gg/cornell%20computer%20science) for 
+standard e-mail. __<span style="color:#B31B1B">Journalists and Media</span>__: here is a [brief biography](/bio/) suitable for print.
+
+
+<!--
+Any URL that looks like "www.bagend.hobbiton.shire/~gandalf" generally admits
+"gandalf@bagend.hobbiton.shire" as an email address. 
+Mine is my UNIX username at [this page's
+domain](https://www.cs.cornell.edu/~havron/).
+-->

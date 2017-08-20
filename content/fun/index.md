@@ -12,11 +12,8 @@ Description = ""
 
 +++
 
-## Soon to be added... music I enjoy, via {{<fa spotify>}} spotify playlist :-)
-(yes, [Stallman](https://stallman.org/spotify.html))
+<span style="color:#B31B1B">__cool people and cool things :)__</span>
 
-<img src="https://media.giphy.com/media/aqOdj3G9M5jNu/giphy.gif" title="maru"
-style="width:100%;border-radius:20px;">
+[my ithaca Spotify playlist](https://open.spotify.com/user/sgh7cc/playlist/3MHDpggfzj9bwzR2v9SRnH)
 
-## nothing to see here...yet!&nbsp; :cat:
-<img src="/img/oweek.jpg" style="border-radius:1em;max-height:700px">
+[_jacksepticeye_](https://www.youtube.com/user/jacksepticeye)
