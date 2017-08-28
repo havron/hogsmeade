@@ -34,7 +34,7 @@ Let's geek out together over actuation methods and switch types.
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I'm slowly-but-surely [building an IoT paradise](https://github.com/havron/mubashir) for myself. What are your IoT plans, or paranoia?
+I'm slowly-but-surely [building an IoT paradise](https://github.com/havron/mubashir) for myself. What are your IoT plans, or associated paranoia?
 </li>
 
 <li>
@@ -44,7 +44,7 @@ Why is that?</li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Language is cool](https://twitter.com/effies/status/867396248919134208); Linguistics and NLP folks, we have much to discuss. Please send me _all of the things_ about language, you don't even need to have context for talking to me!
+[Language is cool](https://twitter.com/effies/status/867396248919134208); linguistics and NLP folks, we have much to chat about. Please send me _all of the things_ about language, you **don't** need any additional pretext for talking to me!
 </li>
 
 <li>
@@ -70,6 +70,11 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 [jacksepticeye](https://www.youtube.com/user/jacksepticeye)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+_cool things about NYC **tba**..._
 </li>
 
 </ul>
