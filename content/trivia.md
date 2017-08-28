@@ -13,37 +13,45 @@ Categories = [
 
 +++
 
-<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;easy egocentric-ish conversation starters...</h2>
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;easy conversation starters with me (egocentric much?)...</h2>
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I am left-handed, and I own an adversarial mug that will spill its contents on any who try to drink
-from it with their right hand. >;)</li>
-
-<li> <i class="fa-li fa fa-hand-o-right"></i> 
-I highly encourage _all people everywhere_ to try out and use mechanical keyboards!
-Let's geek out together over actuation methods and switch types.
+East coast _beast coast_? Let's talk about what it's like to live in particular
+regions of the world.
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-My roots in the Shenandoah Valley are real, _y'all_.</li>
+I am left-handed, and I own an adversarial mug that will spill its contents on any who try to drink
+from it with their right hand >:)</li>
+
+<li> <i class="fa-li fa fa-hand-o-right"></i> 
+I highly encourage all typists to try out and use mechanical keyboards!
+Let's geek out together over actuation methods and switch types.
+</li>
+
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I'm slowly-but-surely [building an IoT paradise](https://github.com/havron/mubashir) for myself.
+I'm slowly-but-surely [building an IoT paradise](https://github.com/havron/mubashir) for myself. What are your IoT plans, or paranoia?
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 From infancy to present, I have maintained an entirely vegetarian diet. 
-Ask me why...!</li>
+Why is that?</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Language is cool](https://twitter.com/effies/status/867396248919134208); Linguistics and NLP folks, we have much to discuss. Please send me _all of the things_ about language, you don't even need to have context for talking to me!
+</li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 I have personally been a victim of [this crucial
 design flaw](https://www.youtube.com/watch?v=TudFAEUkR9Y). 
-Come commiserate with me, and share your own horror stories!
+Come commiserate with me, and share your own horror stories...
 </li>
 
 <li>
@@ -53,16 +61,15 @@ I marched in the Macy's Thanksgiving Day Parade in New York City with the
 in 2015, as well as the St. Patrick's Day Parade in Chicago with the 
 [John Handley Marching Judges Band](http://jhhs.wps.k12.va.us/band.html) in 2014.</li>
 
-
-## abridged apolitical list of cool people, and cool things! :)
+## abridged apolitical list of cool people/things (_not_ implicit endorsements!) 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[ithaca Spotify playlist?](https://open.spotify.com/user/sgh7cc/playlist/3MHDpggfzj9bwzR2v9SRnH)
+[ithaca {{<fa headphones>}}, via {{<fa spotify>}}](https://open.spotify.com/user/sgh7cc/playlist/3MHDpggfzj9bwzR2v9SRnH)
 </i>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[_jacksepticeye_](https://www.youtube.com/user/jacksepticeye)
+[jacksepticeye](https://www.youtube.com/user/jacksepticeye)
 </li>
 
 </ul>

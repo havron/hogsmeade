@@ -160,11 +160,11 @@ identifier = "blog-1"
 url = "/blog/"
 
 [[menu.main]]
-name = "teaching"
+name = "courses"
 pre = '<i class="fa fa-terminal" aria-hidden="true"></i>'
 weight = -80
 identifier = "teaching-1"
-url = "/teaching/"
+url = "/courses/"
 
 #[[menu.main]]
 #name = "courses"

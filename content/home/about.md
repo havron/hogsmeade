@@ -51,9 +51,11 @@ us."* - C.S. Lewis
 ## Contacting Me
 I fluctuate my studies between [upstate New
 York](https://www.cs.cornell.edu/information/ithaca) and 
-[New York City](https://tech.cornell.edu).
-A simple, auditable channel for secure communication with me [{{<fa
-key>}}is available](https://keybase.io/samh) and encouraged for the cautious and privacy-minded. I am also addressable
+[New York City](https://tech.cornell.edu); [you can book
+me {{<fa book>}}](https://havron.youcanbook.me) for appointments at either
+location.
+A simple, auditable channel for secure communication with me [is available {{<fa
+key>}}](https://keybase.io/samh) and encouraged for the cautious and privacy-minded. I am also addressable
 by my _lastname_ at my [department domain](https://ddg.gg/cornell%20computer%20science) for 
 standard e-mail. __<span style="color:#B31B1B">Journalists and Media</span>__: here is a [brief biography](/bio/) suitable for print.
 
