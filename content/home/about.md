@@ -24,11 +24,11 @@ weight = 0
 
 [[education.courses]]
   course = "PhD in Computer Science"
-  institution = "Cornell University"
+  institution = "Cornell University/Cornell Tech"
   year = "~2023"
 [[education.courses]]
-  course = "MS in Computer Science"
-  institution = "Cornell University"
+  course = "MSc in Computer Science"
+  institution = "Cornell University/Cornell Tech"
   year = "~2019"
 [[education.courses]]
   course = "BSc in Computer Science"
@@ -49,15 +49,16 @@ us."* - C.S. Lewis
 -->
 
 ## Contacting Me
-I [regularly fluctuate](https://en.wikipedia.org/wiki/Oxymoron) my studies between [upstate New
-York](https://www.cs.cornell.edu/information/ithaca) and 
-[New York City](https://tech.cornell.edu); [you can book
+I semi-[regularly fluctuate](https://en.wikipedia.org/wiki/Oxymoron) my studies between [upstate New
+York](https://www.cs.cornell.edu/information/ithaca) ([Gates
+Hall](https://blogs.cornell.edu/gateshall/)) and 
+[New York City](https://tech.cornell.edu) ([Bloomberg Center](https://tech.cornell.edu/uploads/Bloomberg2.pdf)); [you can book
 me {{<fa book>}}](https://havron.youcanbook.me) for appointments at either
 location (or propose a better venue).
 A simple, auditable channel for secure communication with me [is available {{<fa
 key>}}](https://keybase.io/samh) and encouraged for the cautious and privacy-minded. I am also addressable
 by my _lastname_ at my [department domain](https://ddg.gg/cornell%20computer%20science) for 
-standard e-mail. __<span style="color:#B31B1B">Journalists and Media</span>__: here is a [brief biography](/bio/) suitable for print.
+standard e-mail. __<span style="color:#B31B1B">Journalists, media, and talk ads</span>__: here is a [brief biography](/bio/) suitable for print.
 
 <!--
 Any URL that looks like "www.bagend.hobbiton.shire/~gandalf" generally admits
