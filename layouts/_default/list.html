@@ -6,12 +6,21 @@
   {{ range $paginator.Pages }}
   <div>
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="article-style">
-      {{ if .Params.summary }}
-      {{ printf "%s" .Params.summary | markdownify }}
+    {{ partial "article_metadata" (dict "content" . "is_list" 1) }}
+    <div class="article-style"><p>
+      {{ if .Description }}
+      {{ printf "%s" .Description | markdownify }}
       {{ else if .Truncated }}
       {{ printf "%s" .Summary | markdownify }}
+      {{ else }}
+      {{ .Content }}
       {{ end }}
+
+  <p class="read-more">
+    <a href="{{ .Permalink }}" class="btn btn-default btn-outline">
+      read on
+    </a>
+  </p>
     </div>
   </div>
   {{ end }}

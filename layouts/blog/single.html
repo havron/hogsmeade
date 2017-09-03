@@ -9,7 +9,7 @@
     <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner" itemprop="image">
     {{end}}
 
-    <h1 style="font-size:3em; color:#B31B1B" itemprop="name">{{ .Title }}</h1>
+    <h1 style="font-size:3em; color:#222222" itemprop="name">{{ .Title }}</h1>
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
 
     <span style="font-size:.7em"><a href="https://github.com/spf13/hugo/blob/1d7f4413f55073b9ea9a9fc9dd4f1792915fe8e1/hugolib/page.go#L401-L414" target="_blank">{{.WordCount }}</a> words (<a href="https://github.com/spf13/hugo/blob/1d7f4413f55073b9ea9a9fc9dd4f1792915fe8e1/hugolib/page.go#L401-L423" target="_blank">{{ .ReadingTime }}m</a>)

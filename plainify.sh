@@ -11,7 +11,7 @@ do
     year=`echo $y | grep -Eo '[^/]+/?$' | cut -d / -f1` 
 
     if [ ! -d "public/blog/$year/raw" ]; then
-    mkdir public/blog/$year/raw # assumes public and $year are created already! Makefile does this.
+    mkdir -p public/blog/$year/raw # assumes public and $year are created already! Makefile does this.
     fi
 
     # take all Markdown blogs, strip the TOML frontmatter, and store them in raw/

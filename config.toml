@@ -6,7 +6,7 @@ theme = "academic"
 enableEmoji = true
 
 [author]
-name = "Sam Havron"
+name = "Sam G. Havron"
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
@@ -39,7 +39,7 @@ layoutReverse = true
 themeColor = "theme-base-0b"
 description = "webpages of Sam Havron, computer science student"
 dateFormat = "Monday, 2 January, 2006"
-  name = "Sam Havron"
+  name = "Sam G. Havron"
   role = "CS PhD Student (Year One)"
   organization = "302 Bill & Melinda Gates Hall"
   # organization = "Cornell (Ithaca/New York City)"
@@ -59,7 +59,7 @@ dateFormat = "Monday, 2 January, 2006"
   math = true
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -86,14 +86,14 @@ dateFormat = "Monday, 2 January, 2006"
   #   Full list: https://jpswalsh.github.io/academicons/
 
 
-  [[params.social]]
-    icon = "home"
-    icon_pack = "fa"
-    link = "/"
+#  [[params.social]]
+#    icon = "home"
+#    icon_pack = "fa"
+#    link = "/"
 
 
   [[params.social]]
-    icon = "pencil"
+    icon = "newspaper-o"
     icon_pack = "fa"
     link = "/blog/"
 
@@ -126,6 +126,12 @@ dateFormat = "Monday, 2 January, 2006"
     link = "//keybase.io/samh"
     tab = true
 
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "/email/"
+    tab = false
+
 # Navigation Links
 #   The weight parameter defines the order that the links will appear in.
 
@@ -140,7 +146,7 @@ url = "/research/"
 
 [[menu.main]]
 name = "bio"
-pre = '<i class="fa fa-newspaper-o" aria-hidden="true"></i>'
+pre = '<i class="fa fa-id-card-o" aria-hidden="true"></i>'
 weight = -109
 identifier = "about me-2"
 url = "/bio/"
@@ -155,7 +161,7 @@ url = "/trivia/"
 [[menu.main]]
 name = "blog"
 weight = -10
-pre = '<i class="fa fa-pencil" aria-hidden="true"></i>'
+pre = '<i class="fa fa-newspaper-o" aria-hidden="true"></i>'
 identifier = "blog-1"
 url = "/blog/"
 
@@ -173,18 +179,9 @@ url = "/courses/"
 #identifier = "courses-1"
 #url = "/courses/"
 
-
 [[menu.blog]]
-name = "about me"
-pre = '<i class="fa fa-user-circle-o" aria-hidden="true"></i>'
-weight = 100
-identifier = "about me-1"
-url = "/about/"
-
-
-[[menu.blog]]
-name = "main site"
-pre = '<i class="fa fa-level-up" aria-hidden="true"></i>'
+name = "havron.xyz"
+pre = '<i class="fa fa-home" aria-hidden="true"></i>'
 weight = -80
 identifier = "teaching-1"
 url = "/"
@@ -198,7 +195,7 @@ url = "/tags/"
 
 
 [[menu.blog]]
-name = "cats"
+name = "categories"
 weight = -40
 pre = '<i class="fa fa-book" aria-hidden="true"></i>'
 identifier = "cats-1"

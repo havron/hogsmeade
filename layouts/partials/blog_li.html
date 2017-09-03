@@ -8,22 +8,20 @@
     itemprop="image">
   </a>
   {{end}}
-  <h3 class="article-title" itemprop="name">
-    <a href="{{ $blog.Permalink }}" itemprop="url">{{ $blog.Title }}</a>
-  </h3>
-  {{ partial "article_metadata" (dict "content" $blog "is_list" 1) }}
-  <div class="article-style" itemprop="articleBody">
-    {{ if $blog.Params.summary }}
-    <p>{{ printf "%s" $blog.Params.summary | markdownify }}</p>
-    {{ else if $blog.Truncated }}
-    {{ $blog.Summary }}
-    {{ else }}
-    {{ $blog.Content }}
-    {{ end }}
-  </div>
+    <h2 class="article-title" itemprop="name"><a href="{{ $blog.Permalink }}" itemprop="url">{{ $blog.Title }}</a></h2>
+    {{ partial "article_metadata" (dict "content" $blog "is_list" 1) }}
+    <div class="article-style" itemprop="articleBody"><p>
+      {{ if $blog.Description }}
+      {{ printf "%s" $blog.Description | markdownify }}
+      {{ else if $blog.Truncated }}
+      {{ printf "%s" $blog.Summary | markdownify }}
+      {{ else }}
+      {{ $blog.Content }}
+      {{ end }}
+
   <p class="read-more">
-    <a href="{{ $blog.Permalink }}" class="btn btn-primary btn-outline">
-      {{ with $page.Params.str_read_more }}{{ . | markdownify }}{{ end }}
+    <a href="{{ $blog.Permalink }}" class="btn btn-default btn-outline">
+      read on
     </a>
   </p>
 </div>

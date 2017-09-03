@@ -16,7 +16,8 @@ title = "bio"
 <img style="width:20%; height:20%;  float: right; margin: 0 0 10px 10px;" src="/img/portrait.jpg">
 Here is a brief biography suitable for use in brochures, advertisements, media,
 etc. The image on this page should be of sufficient resolution for small
-printing. Contact me for a **.pdf** of my CV.
+printing. Contact me via [keybase {{<fa key>}}](https://keybase.io/samh) 
+or [email {{<fa envelope>}}](/email/) for a **.pdf** of my CV.
 
 **Sam Havron is a PhD student in Computer Science at Cornell University; he is
 in residence at Cornell Tech in New York City. 

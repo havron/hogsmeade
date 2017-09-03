@@ -69,11 +69,7 @@ html {
 }
 
 .list-group-item-heading {
- /*
- color: #102;
- color: #000;
- */
- color: #3B342E;
+ color: #B31B1B;
 }
 
 body {
@@ -148,7 +144,7 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: #B31B1B;
   text-decoration: none;
   transition: color 0.6s ease;
 }
@@ -156,6 +152,7 @@ h3.article-title a:hover {
 a:hover,
 a:focus {
   color: #005181;
+  color: #B31B1B;
 }
 
 img,

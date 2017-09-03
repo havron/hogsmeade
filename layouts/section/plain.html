@@ -9,7 +9,7 @@
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <span class="lead">{{ .Date.Format "Mon 2 January 2006" }}</span>
 {{ partial "taxomonies.html" . }}
-            <p>{{ .Summary }}</p>
+            <p>{{ .Description }}</p>
             
             <a href="{{ .Permalink }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-circle-arrow-right"></span> more</button></a>
         {{ end }}

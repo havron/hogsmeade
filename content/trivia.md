@@ -39,7 +39,7 @@ I'm slowly-but-surely [building an IoT paradise](https://github.com/havron/mubas
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-From infancy to present, I have maintained an entirely vegetarian diet. 
+From infancy to present, I have been privileged to be able to maintain an entirely vegetarian diet. 
 Why is that?</li>
 
 <li>
