@@ -7,7 +7,7 @@ draft = false
 widget = "about"
 
 # Order that this section will appear in.
-weight = 0
+weight = -1
 
 # List your academic interests.
 [interests]
@@ -24,20 +24,20 @@ weight = 0
 
 [[education.courses]]
   course = "PhD in Computer Science"
-  institution = "Cornell University/Cornell Tech"
+  institution = "Cornell Tech"
   year = "~2023"
 [[education.courses]]
   course = "MSc in Computer Science"
-  institution = "Cornell University/Cornell Tech"
+  institution = "Cornell Tech"
   year = "~2019"
 [[education.courses]]
   course = "BSc in Computer Science"
-  institution = "University of Virginia"
+  institution = "UVA"
   year = 2017
 +++
 
 # Welcome
-Hiya, thanks for using [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)!
+Hiya, thanks for connecting over [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)!
 As you are reading this, I am probably practicing the art of
 expressing formal injunctions or [spewing cringeworthy quotes](https://quotes.cs.cornell.edu/).
 I am an apprentice of [Tom Ristenpart](https://rist.tech.cornell.edu) and
