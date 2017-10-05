@@ -139,7 +139,7 @@ dateFormat = "Monday, 2 January, 2006"
 # Menu Navigation Items
 [[menu.main]]
 name = "research"
-pre = '<i class="fa fa-cogs" aria-hidden="true"></i>'
+pre = '<i class="fa fa-star" aria-hidden="true"></i>'
 weight = -110
 identifier = "research-1"
 url = "/research/"

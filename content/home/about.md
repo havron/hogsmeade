@@ -42,7 +42,7 @@ weight = -1
 # Welcome
 Hiya, thanks for connecting over [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)!
 I am a graduate researcher within [CTSG](https://tech.cornell.edu/research/security-privacy/security-group), currently working with [Tom Ristenpart](https://rist.tech.cornell.edu) and
-[Nicki Dell](http://nixdell.com) on improving usable privacy and security for victims of
+[Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of
 intimate partner violence. 
 
 <!--

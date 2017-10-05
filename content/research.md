@@ -19,23 +19,24 @@ date = "2016-11-14T13:40:07-05:00"
 ![xkcd](/img/identity.png)
 ## <div style="text-align:center">*[xkcd/1121](https://xkcd.com/1121/)*</div>
 
- I am a first-year CS PhD student, and I am informally advised by [Tom Ristenpart](https://rist.tech.cornell.edu) 
+<h1> Academic Background</h1>
+ I am a first-year CS PhD student in the [Cornell Tech Security Group (CTSG)](https://tech.cornell.edu/research/security-privacy/security-group).
+I am currently being informally advised by [Tom Ristenpart](https://rist.tech.cornell.edu) 
  and [Nicki Dell](http://nixdell.com); under their guidance, I’m learning how
 to become an effective researcher and a strong advocate for socio-technical
 progress.
  Previously, I was an undergraduate researcher advised by [Dave
- Evans](http://www.cs.virginia.edu/~evans) in [UVa](http://www.virginia.edu)'s [computer security research
- group](http://www.jeffersonswheel.org/). 
+ Evans](http://www.cs.virginia.edu/~evans) in the [Jefferson's Wheel Security Research Group (UVa SRG)](http://www.jeffersonswheel.org/). 
 
 
  My principle research interests lie in computer security and privacy,
  adversarial machine learning, data privacy, human-computer interaction, and usable security. 
  
-<h1> Current projects</h1>
+<h1> Current Projects</h1>
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
- (Fall 2017, ongoing) Improving usable privacy and security for victims of intimate
+ (Fall 2017, ongoing) Improving usable privacy and security of technologies for victims of intimate
 partner violence
  </li>
  </ul>
@@ -79,8 +80,23 @@ Fairmont, San Jose, CA](http://www.ieee-security.org/TC/SP2016/)
 Managers.](https://speakerdeck.com/samuelhavron/sts-thesis-proposal-privacy-and-trust-of-password-managers)
 *2 November, 2016 at the University of Virginia*
 
-<script async class="speakerdeck-embed"
+<!--<script async class="speakerdeck-embed"
 data-id="00d25d30ddcd4fa499fa6b3447be0a49" data-ratio="1.7777777778"
-src="//speakerdeck.com/assets/embed.js"></script>
+src="//speakerdeck.com/assets/embed.js"></script> -->
+</li>
+</ul>
+
+
+<h1> Awards </h1>
+<ul class="ul-interests fa-ul">
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Cornell University Fellowship (2017-2018)](https://gradschool.cornell.edu/costs-and-funding/fellowships/new-student-fellowship)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Louis T. Rader Award for Outstanding
+Undergraduate Education (2017)](https://uvacomputerscience.com/2017/05/12/congratulations-to-our-cs-award-winners/)
 </li>
 </ul>
