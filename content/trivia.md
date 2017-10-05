@@ -17,7 +17,13 @@ Categories = [
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-East coast _beast coast_? Let's talk about what it's like to live in particular
+I spew [cringeworthy quotes](https://quotes.cs.cornell.edu/speaker/Sam-Havron/).
+Do you?
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+East coast..._beast coast_...? Let's talk about what it's like to live in particular
 regions of the world.
 </li>
 
@@ -75,11 +81,6 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 [aladdin's](http://aladdinsnaturaleateryithacany.com/36238)
-</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-_cool things about NYC **tba**..._
 </li>
 
 </ul>

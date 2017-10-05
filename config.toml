@@ -115,7 +115,7 @@ dateFormat = "Monday, 2 January, 2006"
     tab = true
 
   [[params.social]]
-    icon = "coffee"
+    icon = "book"
     icon_pack = "fa"
     link = "//havron.youcanbook.me"
     tab = true

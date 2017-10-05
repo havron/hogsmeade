@@ -21,10 +21,10 @@ or [email {{<fa envelope>}}](/email/) for a **.pdf** of my CV.
 
 **Sam Havron is a PhD student in Computer Science at Cornell University; he is
 in residence at Cornell Tech in New York City. 
-He received his BSc in Computer Science from the University of Virginia (UVA).
+He received his BS in Computer Science from UVa.
 Sam's interests include research and production aspects of computer security 
 for mitigating intimate partner violence,
-computer privacy vulnerabilities for underserved and/or marginalized communities, 
+adversarial machine learning and data privacy, 
 applied cryptography, and password authentication systems.
 When not staring at metal rectangles full of little lights, 
 Sam can usually be spotted reading books, or biking.**

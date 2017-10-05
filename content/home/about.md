@@ -14,35 +14,36 @@ weight = -1
   title = "Research Interests"
   interests = [
     "Computer Security and Privacy",
-    "Computation for Underserved Communities",
+    "Adversarial Machine Learning and Data Privacy",
     "Human-Computer Interaction and Usable Security"
   ]
 
 # List your qualifications (such as academic degrees).
 [education]
-  title = "Education"
+  title = "Academic Background"
 
 [[education.courses]]
-  course = "PhD in Computer Science"
-  institution = "Cornell Tech"
-  year = "~2023"
+  course = "PhD in CS at Cornell"
+  institution = "Cornell Tech Security Group (CTSG)"
+  group = "https://tech.cornell.edu/research/security-privacy/security-group"
+  year = "~2022"
 [[education.courses]]
-  course = "MSc in Computer Science"
-  institution = "Cornell Tech"
+  course = "MS in CS at Cornell"
+  institution = "Cornell Tech Security Group (CTSG)"
+  group = "https://tech.cornell.edu/research/security-privacy/security-group"
   year = "~2019"
 [[education.courses]]
-  course = "BSc in Computer Science"
-  institution = "UVA"
+  course = "BS in CS at UVa"
+  institution = "Jefferson's Wheel (UVa SRG)"
+  group = "https://www.jeffersonswheel.org/"
   year = 2017
 +++
 
 # Welcome
 Hiya, thanks for connecting over [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)!
-As you are reading this, I am probably practicing the art of
-expressing formal injunctions or [spewing cringeworthy quotes](https://quotes.cs.cornell.edu/).
-I am an apprentice of [Tom Ristenpart](https://rist.tech.cornell.edu) and
-[Nicki Dell](http://nixdell.com); under their guidance, I'm learning how to become an
-effective researcher and a strong advocate for socio-technical progress.
+I am a graduate researcher within [CTSG](https://tech.cornell.edu/research/security-privacy/security-group), currently working with [Tom Ristenpart](https://rist.tech.cornell.edu) and
+[Nicki Dell](http://nixdell.com) on improving usable privacy and security for victims of
+intimate partner violence. 
 
 <!--
 *"We are mirrors whose brightness is wholly derived from the sun that shines upon
@@ -50,10 +51,10 @@ us."* - C.S. Lewis
 -->
 
 # Contacting Me
-I fluctuate my studies between [upstate New
-York](https://www.cs.cornell.edu/information/ithaca) ([Gates
-Hall](https://blogs.cornell.edu/gateshall/)) and 
-[New York City](https://tech.cornell.edu) ([Bloomberg Center](https://tech.cornell.edu/uploads/Bloomberg2.pdf)); [you can book
+I sit in both [Gates
+Hall](https://blogs.cornell.edu/gateshall/) ([upstate New
+York](https://www.cs.cornell.edu/information/ithaca)) and 
+the [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center) ([New York City](https://tech.cornell.edu)); [you can book
 me {{<fa book>}}](https://havron.youcanbook.me) for appointments at either
 location (or propose a better venue).
 A simple, auditable channel for secure communication with me [is available {{<fa

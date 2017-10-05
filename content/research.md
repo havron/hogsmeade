@@ -19,23 +19,24 @@ date = "2016-11-14T13:40:07-05:00"
 ![xkcd](/img/identity.png)
 ## <div style="text-align:center">*[xkcd/1121](https://xkcd.com/1121/)*</div>
 
- I am a first-year CS PhD student, and I am advised by [Tom Ristenpart](https://rist.tech.cornell.edu) 
+ I am a first-year CS PhD student, and I am informally advised by [Tom Ristenpart](https://rist.tech.cornell.edu) 
  and [Nicki Dell](http://nixdell.com); under their guidance, I’m learning how
 to become an effective researcher and a strong advocate for socio-technical
 progress.
- Previously, I was an undergraduate researcher advised by [David
- Evans](http://www.cs.virginia.edu/evans) in [UVA](http://www.virginia.edu)'s [computer security research
+ Previously, I was an undergraduate researcher advised by [Dave
+ Evans](http://www.cs.virginia.edu/~evans) in [UVa](http://www.virginia.edu)'s [computer security research
  group](http://www.jeffersonswheel.org/). 
 
+
  My principle research interests lie in computer security and privacy,
-computation for underserved communities, human-computer interaction, and usable security. 
+ adversarial machine learning, data privacy, human-computer interaction, and usable security. 
  
 <h1> Current projects</h1>
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
- (Fall 2017) I am investigating key issues in the Tech for Mitigating Intimate Partner Violence
-space! More to come...
+ (Fall 2017, ongoing) Improving usable privacy and security for victims of intimate
+partner violence
  </li>
  </ul>
 
