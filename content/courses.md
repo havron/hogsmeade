@@ -14,8 +14,8 @@ title = "courses"
 
 +++
 # enrolled
-At [Cornell](https://www.cornell.edu/), I have taken the following
-courses:
+I spend most of my time [working deeply](http://calnewport.com/books/deep-work/) on my [research](/research/) -- here are a few
+courses at [Cornell](https://www.cs.cornell.edu) I took along the way:
 
 <ul class="ul-interests fa-ul">
 <li>
@@ -32,7 +32,7 @@ courses:
 </ul>
 
 # teaching
-At the [University of Virginia](http://www.virginia.edu), I TA'd the following courses:
+At [UVa](https://www.cs.virginia.edu), I TA'd the following courses:
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-university"></i>

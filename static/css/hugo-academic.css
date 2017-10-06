@@ -69,9 +69,10 @@ body {
   background-color: #355834;
   background-color: #3E442B;
   background-color: #004C11;
-  */
   background-color: #242F40;
   background-color: #D8D2C9;
+  */
+  background-color: #000;
   font-family: inherit;
   font-size: 1rem;
   line-height: inherit;
@@ -266,7 +267,7 @@ blockquote p:last-child {
 
 #profile .portrait {
   background-image: url('../img/portrait.jpg');
-  width: 200px;
+  width: 210px;
   height: 230px;
   margin: 0 auto;
   border-radius: 3%;
@@ -317,7 +318,7 @@ blockquote p:last-child {
 }
 
 ul.ul-interests li {
-  font-size: 0.9rem;
+  font-size: 0.955rem;
 }
 
 ul.ul-edu {
@@ -334,11 +335,11 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
+  font-size: 1.0rem;
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   color: #222222;
 }
 
@@ -480,11 +481,9 @@ ul.share li:hover .fa {
 }
 
 .article { 
-  border-radius: 10px;
-  padding: 1em;
-  background-color: #003459;
-  background-color: #F7F7F7;
-  color: #ffffff;
+  border-radius: 20px;
+  padding: 1.4em;
+  background-color: #e0e0e0;
   color: #222222;
 }
 
@@ -618,11 +617,19 @@ footer {
 footer p {
   font-size: 0.75rem;
   text-align: center;
+  color: #e0e0e0;
+}
+
+footer a {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #B31B1B;
 }
 
 .site-footer,
 footer a#back_to_top i {
-  color: #899596;
+  /* color: #899596; */
+  color: #B31B1B;
 }
 
 /*************************************************
@@ -717,7 +724,7 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-nav li a:hover {
-  color: #0095eb;
+  color: #888;
 }
 
 .navbar-brand,
@@ -732,7 +739,6 @@ nav#navbar-main li {
   /*text-transform: uppercase;*/
   font-weight: bold;
   font-size: 1.3em;
-  color: #eeeeee;
   color: #fff;
 }
 

@@ -83,6 +83,11 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 [aladdin's](http://aladdinsnaturaleateryithacany.com/36238)
 </li>
 
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Anything written by Cal Newport](http://calnewport.com)
+</li>
+
 </ul>
 
 <img src="/img/cmb.jpg">

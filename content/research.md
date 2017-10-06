@@ -91,7 +91,7 @@ src="//speakerdeck.com/assets/embed.js"></script> -->
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Cornell University Fellowship (2017-2018)](https://gradschool.cornell.edu/costs-and-funding/fellowships/new-student-fellowship)
+[Cornell Graduate School Fellowship (2017-2018)](https://gradschool.cornell.edu/costs-and-funding/fellowships/new-student-fellowship)
 </li>
 
 <li>
