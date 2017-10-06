@@ -1,4 +1,4 @@
-# :jack_o_lantern: hogsmeade home :books: 
+# static web pages 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://havron.xyz)
 
 welcome! this repository is home to the code for my personal website,
