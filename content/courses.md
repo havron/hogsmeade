@@ -32,6 +32,11 @@ courses at [Cornell](https://www.cs.cornell.edu) I took along the way:
 </ul>
 
 # teaching
+Please take a look at the [**repository for remarkable
+teaching {{<fa github>}}**](https://github.com/havron/teaching) that I host on
+GitHub; therein lie some ideas and philosophies that are (perhaps)
+increasingly *rare*, *valuable*, and *meaningful* for world-class teaching.
+
 At [UVa](https://www.cs.virginia.edu), I TA'd the following courses:
 <ul class="ul-interests fa-ul">
 <li>

@@ -167,7 +167,7 @@ url = "/blog/"
 
 [[menu.main]]
 name = "courses"
-pre = '<i class="fa fa-terminal" aria-hidden="true"></i>'
+pre = '<i class="fa fa-ticket" aria-hidden="true"></i>'
 weight = -80
 identifier = "teaching-1"
 url = "/courses/"
