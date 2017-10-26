@@ -26,7 +26,7 @@ cd $TEMP_DEPLOY_DIR
 
 # Sync with S3
 echo -e "---------!!!!!!!!!! Attempting to sync with S3 bucket $S3_BUCKET !!!!!!!-----------"
-s3cmd sync --delete-removed --acl-public --exclude '.git/*' ~/hogsmeade/public/ s3://$S3_BUCKET/
+s3cmd sync --delete-removed --acl-public --exclude '.git/*' ~/web/public/ s3://$S3_BUCKET/
 echo "Sync to $S3_BUCKET successful!"
 # Clean up
 cd ..
