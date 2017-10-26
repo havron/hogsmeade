@@ -13,51 +13,42 @@ Categories = [
 
 +++
 
-<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;easy conversation starters with me (egocentric much?)...</h2>
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ask me about"...</h2>
 <ul class="ul-interests fa-ul">
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-I spew [cringeworthy quotes](https://quotes.cs.cornell.edu/speaker/Sam-Havron/).
-Do you?
-</li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-East coast..._beast coast_...? Let's talk about what it's like to live in particular
-regions of the world.
+I'm [building an IoT paradise](https://github.com/havron/mubashir) for myself in my infinite spare time. What are your IoT dreams, or [paranoia](https://www.theverge.com/2017/10/25/16538834/amazon-key-in-home-delivery-unlock-door-prime-cloud-cam-smart-lock)?
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 I am left-handed, and I own an adversarial mug that will spill its contents on any who try to drink
-from it with their right hand >:)</li>
+from it with their right hand :-)</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+I spew [cringeworthy quotes](https://quotes.cs.cornell.edu/speaker/Sam-Havron/).
+</li>
 
 <li> <i class="fa-li fa fa-hand-o-right"></i> 
-I highly encourage all typists to try out and use mechanical keyboards!
+I highly encourage all typists to try out and use ergonomic mechanical keyboards!
 Let's geek out together over actuation methods and switch types.
 </li>
 
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+From infancy to present, I have been privileged to be able to maintain an entirely vegetarian diet.</li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I'm slowly-but-surely [building an IoT paradise](https://github.com/havron/mubashir) for myself. What are your IoT plans, or associated paranoia?
-</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-From infancy to present, I have been privileged to be able to maintain an entirely vegetarian diet. 
-Why is that?</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-[Language is cool](https://twitter.com/effies/status/867396248919134208); linguistics and NLP folks, we have much to chat about. Please send me _all of the things_ about language, you **don't** need any additional pretext for talking to me!
+[Language is cool](https://twitter.com/effies/status/867396248919134208).
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 I have personally been a victim of [this crucial
-design flaw](https://www.youtube.com/watch?v=TudFAEUkR9Y). 
-Come commiserate with me, and share your own horror stories...
+design flaw](https://www.youtube.com/watch?v=TudFAEUkR9Y). It was horrifying.
 </li>
 
 <li>
@@ -67,7 +58,7 @@ I marched in the Macy's Thanksgiving Day Parade in New York City with the
 in 2015, as well as the St. Patrick's Day Parade in Chicago with the 
 [John Handley Marching Judges Band](http://jhhs.wps.k12.va.us/band.html) in 2014.</li>
 
-## abridged apolitical list of cool people/things (_not_ implicit endorsements!) 
+## some cool people/things (_not_ implicit endorsements!) 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 [ithaca {{<fa headphones>}}, via {{<fa spotify>}}](https://open.spotify.com/user/sgh7cc/playlist/3MHDpggfzj9bwzR2v9SRnH)
@@ -85,7 +76,7 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Anything written by Cal Newport](http://calnewport.com)
+[Cal Newport](http://calnewport.com)
 </li>
 
 </ul>

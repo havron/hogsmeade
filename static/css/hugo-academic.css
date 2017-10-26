@@ -223,7 +223,9 @@ blockquote p:last-child {
  **************************************************/
 
 .home-section {
-  background-color: #F7F7F7;
+  /* background-color: #F7F7F7; */
+
+  background-color: #f0f0f0;
   padding: 110px 0 110px 0;
 }
 @media screen and (max-width: 768px) {

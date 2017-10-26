@@ -15,7 +15,7 @@ title = "courses"
 +++
 # enrolled
 I spend most of my time [working deeply](http://calnewport.com/books/deep-work/) on my [research](/research/) -- here are a few
-courses at [Cornell](https://www.cs.cornell.edu) I took along the way:
+courses at [Cornell CS](https://www.cs.cornell.edu) I took along the way:
 
 <ul class="ul-interests fa-ul">
 <li>
@@ -37,7 +37,7 @@ teaching {{<fa github>}}**](https://github.com/havron/teaching) that I host on
 GitHub; therein lie some ideas and philosophies that are (perhaps)
 increasingly *rare*, *valuable*, and *meaningful* for world-class teaching.
 
-At [UVa](https://www.cs.virginia.edu), I TA'd the following courses:
+At [UVA CS](https://www.cs.virginia.edu), I TA'd the following courses:
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-university"></i>

@@ -14,13 +14,11 @@
                style="background-image: url('{{ "/img/" | relURL }}{{ . }}');">
           </div>
           {{ end }}
-
           <div class="portrait-title">
             <h2 itemprop="name">{{ $.Site.Params.name }}</h2>
             <h3 itemprop="jobTitle">{{ $.Site.Params.role }}</h3>
             {{ with $.Site.Params.organization }}<h3 itemprop="worksFor">{{ . }}</h3>{{ end }}
           </div>
-
           <ul class="social-icon" aria-hidden="true">
             {{ range $.Site.Params.social }}
             {{ $pack := or .icon_pack "fa" }}
@@ -31,8 +29,9 @@
             </li>
             {{ end }}
           </ul>
-          <a target="_blank" href="https://www.nytimes.com/2017/09/13/arts/design/cornell-tech-art-roosevelt-island.html?nl=todaysheadlines&emc=edit_th_20170913&_r=0"><img style="max-width:265px; display: block; margin: 0 auto" src="{{ "/img/rainbow.svg" | relURL }}"></a>
-
+          <a target="_blank" href="https://www.nytimes.com/2017/09/13/arts/design/cornell-tech-art-roosevelt-island.html?nl=todaysheadlines&emc=edit_th_20170913&_r=0"><img style="max-width:285px; margin: 0 auto" src="{{ "/img/rainbow.svg" | relURL }}"></a>
+          <!--<a target="_blank" href="https://www.nytimes.com/2017/09/13/arts/design/cornell-tech-art-roosevelt-island.html?nl=todaysheadlines&emc=edit_th_20170913&_r=0"><img style="max-width:265px; display: block; margin: 0 auto" src="{{ "/img/rainbow.svg" | relURL }}"></a>
+          -->
         </div>
       </div>
 

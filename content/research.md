@@ -26,7 +26,7 @@ I am currently being informally advised by [Tom Ristenpart](https://rist.tech.co
 to become an effective researcher and a strong advocate for socio-technical
 progress.
  Previously, I was an undergraduate researcher advised by [Dave
- Evans](http://www.cs.virginia.edu/~evans) in the [Jefferson's Wheel Security Research Group (UVa SRG)](http://www.jeffersonswheel.org/). 
+ Evans](http://www.cs.virginia.edu/~evans) in the [Jefferson's Wheel Security Research Group (UVA SRG)](http://www.jeffersonswheel.org/). 
 
 
  My principle research interests lie in computer security and privacy,
