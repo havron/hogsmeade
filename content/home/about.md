@@ -24,24 +24,24 @@ weight = -1
 
 [[education.courses]]
   course = "PhD in CS at Cornell"
-  institution = "Cornell Tech Security Group"
+  institution = "Cornell-Tech security group"
   group = "https://tech.cornell.edu/research/security-privacy/security-group"
   year = "~2022"
 [[education.courses]]
-  course = "MS in CS at Cornell"
-  institution = "Cornell Tech Security Group"
+  course = "SM in CS at Cornell"
+  institution = "Cornell-Tech security group"
   group = "https://tech.cornell.edu/research/security-privacy/security-group"
   year = "~2019"
 [[education.courses]]
-  course = "BS in CS at UVA"
-  institution = "UVA SRG (Jefferson's Wheel)"
+  course = "SB in CS at UVA"
+  institution = "UVA srg (Jefferson's Wheel)"
   group = "https://www.jeffersonswheel.org/"
   year = 2017
 +++
 
 # Welcome
 Hiya, thanks for connecting over [TLS](https://tlseminar.github.io/tls-future/)!
-I am a graduate researcher within [CTSG](https://tech.cornell.edu/research/security-privacy/security-group), currently working with [Tom Ristenpart](https://rist.tech.cornell.edu) and
+I am a graduate researcher within [CTsg](https://tech.cornell.edu/research/security-privacy/security-group), currently working with [Tom Ristenpart](https://rist.tech.cornell.edu) and
 [Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of
 intimate partner violence.
 

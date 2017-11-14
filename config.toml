@@ -34,15 +34,15 @@ copyright = "Unless otherwise specified by the author, this work is licensed und
 
 
 [params]
-repository="https://github.com/havron/hogsmeade"
+repository="https://github.com/havron/web"
 layoutReverse = true
 themeColor = "theme-base-0b"
 description = "webpages of Sam Havron, computer science student"
 footerFormat = "2006-Jan-02 (Monday)"
 dateFormat = "Monday, 2 January, 2006"
   name = "Sam G. Havron"
-  role = "CS PhD Student (Year One)"
-   organization = "302 Bill & Melinda Gates Hall"
+  role = "First-Year Graduate Student"
+  organization = "302.4 Bill & Melinda Gates Hall"
   #organization = "302-4 Gates Hall"
   # organization = "Cornell (Ithaca/New York City)"
   avatar = "me.jpg"

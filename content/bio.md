@@ -9,7 +9,7 @@ Tags = [
 ]
 Categories = [
 ]
-title = "bio"
+title = "bio/cv"
 
 +++
 
@@ -17,17 +17,16 @@ title = "bio"
 Here is a brief biography suitable for use in brochures, advertisements, media,
 etc. The image on this page should be of sufficient resolution for small
 printing. Contact me via [keybase {{<fa key>}}](https://keybase.io/samh) 
-or [email {{<fa envelope>}}](/email/) for a **.pdf** of my CV.
+or [e-mail {{<fa envelope>}}](/email/) for a **.pdf** of my CV/resume.
 
-**Sam Havron is a PhD student in Computer Science at Cornell University; he is
+**Sam Havron is a PhD student in computer science at Cornell University; he is
 in residence at Cornell Tech in New York City. 
-He received his BS in Computer Science from UVA.
-Sam's interests include research and production aspects of computer security 
-for mitigating intimate partner violence,
-adversarial machine learning and data privacy, 
-applied cryptography, and password authentication systems.
+He received his SB in computer science from UVA.
+Sam's interests include research and production aspects of computer security &
+privacy for mitigating intimate partner violence,
+adversarial machine learning, applied cryptography, and password authentication systems.
 When not staring at metal rectangles full of little lights, 
-Sam can usually be spotted reading books, or biking.**
+Sam can often be spotted reading books, or biking.**
 
 _Thanks to [Jonathan McCune](https://users.ece.cmu.edu/~jmmccune/bio.html) for
 inspiring this biography template_.
