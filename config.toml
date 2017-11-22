@@ -4,6 +4,7 @@ copyright = "Sam Havron."
 languageCode = "en-us"
 theme = "academic"
 enableEmoji = true
+titleURL = "sam"
 
 [author]
 name = "Sam G. Havron"

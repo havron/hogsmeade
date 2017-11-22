@@ -23,27 +23,27 @@ weight = -1
   title = "Academic Background"
 
 [[education.courses]]
-  course = "PhD in CS at Cornell"
-  institution = "Cornell-Tech security group"
+  course = "PhD"
+  courseURL = "https://www.cs.cornell.edu/phd"
+  department = "Cornell Tech"
+  departmentURL = "https://tech.cornell.edu"
+  institution = "Security & Privacy Group"
   group = "https://tech.cornell.edu/research/security-privacy/security-group"
   year = "~2022"
 [[education.courses]]
-  course = "SM in CS at Cornell"
-  institution = "Cornell-Tech security group"
-  group = "https://tech.cornell.edu/research/security-privacy/security-group"
-  year = "~2019"
-[[education.courses]]
-  course = "SB in CS at UVA"
-  institution = "UVA srg (Jefferson's Wheel)"
+  course = "BS"
+  courseURL = "https://engineering.virginia.edu/departments/computer-science/academics/computer-science-undergraduate-programs/"
+  departmentURL = "https://www.cs.virginia.edu"
+  department = "UVA"
+  institution = "Jefferson's Wheel (SRG)"
   group = "https://www.jeffersonswheel.org/"
-  year = 2017
+  year = "2017"
 +++
 
 # Welcome
-Hiya, thanks for connecting over [TLS](https://tlseminar.github.io/tls-future/)!
+Hiya, thanks for using [TLS](https://tlseminar.github.io/tls-future/)!
 I am a graduate researcher within [CTsg](https://tech.cornell.edu/research/security-privacy/security-group), currently working with [Tom Ristenpart](https://rist.tech.cornell.edu) and
-[Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of
-intimate partner violence.
+[Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of intimate partner violence.
 
 <!--
 *"We are mirrors whose brightness is wholly derived from the sun that shines upon
