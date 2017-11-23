@@ -23,18 +23,18 @@ weight = -1
   title = "Academic Background"
 
 [[education.courses]]
-  course = "PhD"
+  course = "phd"
   courseURL = "https://www.cs.cornell.edu/phd"
-  department = "Cornell Tech"
+  department = "tech.cornell.edu"
   departmentURL = "https://tech.cornell.edu"
   institution = "Security & Privacy Group"
   group = "https://tech.cornell.edu/research/security-privacy/security-group"
   year = "~2022"
 [[education.courses]]
-  course = "BS"
+  course = "bs"
   courseURL = "https://engineering.virginia.edu/departments/computer-science/academics/computer-science-undergraduate-programs/"
   departmentURL = "https://www.cs.virginia.edu"
-  department = "UVA"
+  department = "cs.virginia.edu"
   institution = "Jefferson's Wheel (SRG)"
   group = "https://www.jeffersonswheel.org/"
   year = "2017"
