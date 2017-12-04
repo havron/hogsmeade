@@ -19,25 +19,27 @@ date = "2016-11-14T13:40:07-05:00"
 ![xkcd](/img/identity.png)
 ## <div style="text-align:center">*[xkcd/1121](https://xkcd.com/1121/)*</div>
 
-<h1> Academic Background</h1>
- I am a first-year CS PhD student in the [Cornell Tech Security Group (CTSG)](https://tech.cornell.edu/research/security-privacy/security-group).
-I am currently being informally advised by [Tom Ristenpart](https://rist.tech.cornell.edu) 
- and [Nicki Dell](http://nixdell.com); under their guidance, I’m learning how
-to become an effective researcher and a strong advocate for socio-technical
-progress.
- Previously, I was an undergraduate researcher advised by [Dave
- Evans](http://www.cs.virginia.edu/~evans) in the [Jefferson's Wheel Security Research Group (UVA SRG)](http://www.jeffersonswheel.org/). 
+<h1>Mentors</h1>
+It takes an entire ~~village~~ department to raise a ~~child~~ student. 
+I'm eternally grateful to my mentors, 
+formal and informal, who have given me immeasurable help and able guidance
+in my research and in my general life. I would not be where 
+I am today without these wonderful people.
 
-
- My principle research interests lie in computer security and privacy,
- adversarial machine learning, data privacy, human-computer interaction, and usable security. 
+[Prof. Tom Ristenpart](https://rist.tech.cornell.edu) 
+ and [Prof. Nicki Dell](http://nixdell.com) advise me as a grad student (informal). 
+[Prof. Dave
+ Evans](http://www.cs.virginia.edu/~evans) advised me as an undergrad (formal).
  
 <h1> Current Projects</h1>
+ My principle research interests lie in computer security and privacy,
+ adversarial machine learning, data privacy, human-computer interaction, and usable security. Here's what I'm doing now:
+
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
- (Fall 2017, ongoing) Improving usable privacy and security of technologies for victims of intimate
-partner violence
+ (Fall 2017, ongoing) Improving usable privacy and security technologies for victims of intimate
+partner violence -- one paper currently in submission
  </li>
  </ul>
 
@@ -45,11 +47,10 @@ partner violence
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-Samuel Havron: [Poster: Secure
+Sam Havron: [Poster: Secure
 Multi-Party Computation as a Tool for Privacy-Preserving Data
 Analysis](/pubs/mpc_poster.pdf).
-*37<sup>th</sup> IEEE Symposium on Security and Privacy ("Oakland"). 
-San Jose, CA. 23-25 May 2016.* 
+**IEEE S&P (Oakland) 2016**.
 [[{{<fa file-pdf-o>}} Paper PDF](/pubs/mpc_poster.pdf), [{{<fa file-pdf-o>}} Poster PDF](/pubs/mpc_poster_print.pdf)]
 </li>
 </ul>
@@ -58,18 +59,8 @@ San Jose, CA. 23-25 May 2016.*
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-Hannah Li, David Evans: [Horcrux: A Password Manager for Paranoids](https://arxiv.org/pdf/1706.05085.pdf). arXiv:1706.05085v1 [cs.CR] 15 Jun 2017.
+Hannah Li, David Evans: [Horcrux: A Password Manager for Paranoids](https://arxiv.org/pdf/1706.05085.pdf). **arXiv**:1706.05085v1 [cs.CR] 2017-Jun-15.
 [[{{<fa file-pdf-o>}} Paper PDF](https://arxiv.org/pdf/1706.05085.pdf)]
-</ul>
-
-<h1> Conferences </h1>
-<ul class="ul-interests fa-ul">
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-Attendee and Poster Presenter. 
-[37<sup>th</sup> IEEE Symposium on Security and Privacy ("Oakland"). May 23-25, 2016, at the
-Fairmont, San Jose, CA](http://www.ieee-security.org/TC/SP2016/)
-</li>
 </ul>
 
 <h1> Talks </h1>
@@ -78,7 +69,7 @@ Fairmont, San Jose, CA](http://www.ieee-security.org/TC/SP2016/)
 <i class="fa-li fa fa-hand-o-right"></i>
 [STS Thesis Proposal: Privacy and Trust of Password
 Managers.](https://speakerdeck.com/samuelhavron/sts-thesis-proposal-privacy-and-trust-of-password-managers)
-*2 November, 2016 at the University of Virginia*
+*2016-Nov-02 at the University of Virginia*
 
 <!--<script async class="speakerdeck-embed"
 data-id="00d25d30ddcd4fa499fa6b3447be0a49" data-ratio="1.7777777778"

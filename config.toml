@@ -1,13 +1,13 @@
 baseurl = "https://havron.xyz"
 title = "sam havron"
-copyright = "Sam Havron."
+copyright = "Sam Havron"
 languageCode = "en-us"
 theme = "academic"
 enableEmoji = true
 titleURL = "sam"
 
 [author]
-name = "Sam G. Havron"
+name = "Sam Havron"
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
@@ -39,13 +39,12 @@ repository="https://github.com/havron/web"
 layoutReverse = true
 themeColor = "theme-base-0b"
 description = "webpages of Sam Havron, computer science student"
-footerFormat = "2006-Jan-02 (Monday)"
+footerFormat = "2006-Jan-02"
 dateFormat = "Monday, 2 January, 2006"
-  name = "Sam G. Havron"
-  role = "First-Year Graduate Student"
-  organization = "302.4 Bill & Melinda Gates Hall"
-  #organization = "302-4 Gates Hall"
+  name = "Sam Havron"
+  role = "First-Year Grad Student"
   # organization = "Cornell (Ithaca/New York City)"
+  organization = "302 Gates Hall (Ithaca, NY)"
   avatar = "me.jpg"
   email = "echo @cs.cornell.edu | sed 's/^/havron/'"
   address = "302 Gates Hall, Cornell University, Ithaca NY 14853"
@@ -148,7 +147,7 @@ identifier = "research-1"
 url = "/research/"
 
 [[menu.main]]
-name = "bio"
+name = "bio/cv"
 pre = '<i class="fa fa-id-card-o" aria-hidden="true"></i>'
 weight = -109
 identifier = "about me-2"
@@ -157,7 +156,7 @@ url = "/bio/"
 [[menu.main]]
 name = "trivia"
 pre = '<i class="fa fa-quote-right" aria-hidden="true"></i>'
-weight = -100
+weight = -11
 identifier = "about me-1"
 url = "/trivia/"
 
@@ -174,6 +173,13 @@ pre = '<i class="fa fa-ticket" aria-hidden="true"></i>'
 weight = -80
 identifier = "teaching-1"
 url = "/courses/"
+
+[[menu.main]]
+name = "subdomains"
+pre = '<i class="fa fa-subway" aria-hidden="true"></i>'
+weight = -70
+identifier = "subdomains-1"
+url = "/subdomains/"
 
 #[[menu.main]]
 #name = "courses"

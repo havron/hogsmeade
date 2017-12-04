@@ -14,20 +14,33 @@ title = "courses"
 
 +++
 # enrolled
-I spend most of my time [working deeply](http://calnewport.com/books/deep-work/) on my [research](/research/) -- here are a few
-courses at [Cornell CS](https://www.cs.cornell.edu) I took along the way:
+I spend most of my time on my [research](/research/) -- here are a few
+courses I took along the way in grad school:
 
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-university"></i>
+<a href="https://www.cs.cornell.edu/~shmat/courses/cs6431/" target="_blank">CS 6431: Security and Privacy Technologies</a>, with 
+<a href="https://www.cs.cornell.edu/~shmat/" target="_blank">Prof. Vitaly Shmatikov</a>
+and
+<a href="https://rist.tech.cornell.edu/" target="_blank">Prof. Tom Ristenpart</a>
+</li>
+<li>
+<i class="fa-li fa fa-university"></i>
+<a href="https://www.cs.cornell.edu/courses/cs6110/2017sp/" target="_blank">CS 6110: Advanced Programming Languages</a>, with 
+<a href="https://www.cs.cornell.edu/~asampson/" target="_blank">Prof. Adrian
+Sampson</a>
+</li>
+<li>
+<i class="fa-li fa fa-university"></i>
 <a href="https://www.cs.cornell.edu/courses/cs6820/2017fa/" target="_blank">CS 6820: Analysis of Algorithms</a>, with 
-<a href="https://www.cs.cornell.edu/~rdk/" target="_blank">Bobby Kleinberg</a>
+<a href="https://www.cs.cornell.edu/~rdk/" target="_blank">Prof. Bobby Kleinberg</a>
 </li>
 
 <li>
 <i class="fa-li fa fa-university"></i>
 <a href="https://www.cs.cornell.edu/courses/cs4740/2017fa/" target="_blank">CS 5740: Natural Language Processing</a>, with 
-<a href="https://www.cs.cornell.edu/home/cardie/" target="_blank">Claire Cardie</a>
+<a href="https://www.cs.cornell.edu/home/cardie/" target="_blank">Prof. Claire Cardie</a>
 </li>
 </ul>
 
@@ -37,7 +50,7 @@ teaching {{<fa github>}}**](https://github.com/havron/teaching) that I host on
 GitHub; therein lie some ideas and philosophies that are (perhaps)
 increasingly *rare*, *valuable*, and *meaningful* for world-class teaching.
 
-At [UVA CS](https://www.cs.virginia.edu), I TA'd the following courses:
+As an undergrad, I TA'd the following courses:
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-university"></i>
