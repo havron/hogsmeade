@@ -10,13 +10,6 @@ widget = "about"
 weight = -1
 
 # List your academic interests.
-[interests]
-  title = "Research Interests"
-  interests = [
-    "Computer Security and Privacy",
-    "Adversarial Machine Learning and Data Privacy",
-    "Human-Computer Interaction and Usable Security"
-  ]
 
 # List your qualifications (such as academic degrees).
 [education]
@@ -36,15 +29,23 @@ weight = -1
   courseURL = "https://engineering.virginia.edu/departments/computer-science/academics/computer-science-undergraduate-programs/"
   departmentURL = "https://www.cs.virginia.edu"
   department = "cs.virginia.edu"
-  institution = "Security Research Group (SRG)"
+  institution = "Security Research Group"
   group = "https://www.jeffersonswheel.org/"
   year = "2017"
   spin = ""
+
+[interests]
+  title = "Research Interests"
+  interests = [
+    "Computer Security and Privacy",
+    "Adversarial Machine Learning and Data Privacy",
+    "Human-Computer Interaction and Usable Security"
+  ]
 +++
 
 # Welcome
 Hiya, thanks for using [TLS](https://tlseminar.github.io/tls-future/)!
-I am a graduate student, currently working with [Professor Tom Ristenpart](https://rist.tech.cornell.edu) and
+I'm currently working with [Professor Tom Ristenpart](https://rist.tech.cornell.edu) and
 [Professor Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of intimate partner violence. 
 
 <!--
@@ -53,10 +54,9 @@ us."* - C.S. Lewis
 -->
 
 # Contacting Me
-[You can book
-me](https://havron.youcanbook.me) for meetings 
-([Ithaca](https://www.cs.cornell.edu/information/ithaca)/[NYC](https://tech.cornell.edu/campus/bloomberg-center)/video chat app);
-you can message me using traditional [e-mail](/email/) or more interestingly [with keybase](https://keybase.io/samh); you can copy/paste this [brief bio](/bio/) for talk ads and the like.
+[You can book me](https://havron.youcanbook.me) for meetings 
+([Ithaca](https://www.cs.cornell.edu/information/ithaca)/[NYC](https://tech.cornell.edu/campus/bloomberg-center)/video chat),
+message me using [e-mail](/email/) (or more interestingly [with keybase](https://keybase.io/samh)), and copy/paste this [brief bio](/bio/) for talk ads and the like.
 <!--
 __<span style="color:#B31B1B">Journalists, media, and talk ads</span>__: here is a [brief biography](/bio/) suitable for print.
 -->

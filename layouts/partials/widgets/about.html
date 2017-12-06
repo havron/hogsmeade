@@ -47,7 +47,7 @@
         <div class="row">
 
           {{ with $page.Params.interests }}
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <h3>{{ .title | default "Interests" | markdownify }}</h3>
             <ul class="ul-interests fa-ul">
               {{ range .interests }}
@@ -60,8 +60,9 @@
           </div>
           {{ end }}
 
+
           {{ with $page.Params.education }}
-          <div class="col-sm-7">
+          <div class="col-sm-6">
             <h3>{{ .title | default "Education" | markdownify }}</h3>
             <ul class="ul-edu fa-ul">
               {{ range .courses }}
