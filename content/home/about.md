@@ -54,8 +54,10 @@ us."* - C.S. Lewis
 -->
 
 # Contacting Me
+**<span style="color: #b31b1b">{{<fa exclamation>}} notice: I am in New York City, December 11th-15th.</span>**
+
 [You can book me](https://havron.youcanbook.me) for meetings 
-([Ithaca](https://www.cs.cornell.edu/information/ithaca)/[NYC](https://tech.cornell.edu/campus/bloomberg-center)/video chat),
+([New York City](https://tech.cornell.edu/campus/bloomberg-center)/[Ithaca](https://www.cs.cornell.edu/information/ithaca)/video chat),
 message me using [e-mail](/email/) (or more interestingly [with keybase](https://keybase.io/samh)), and copy/paste this [brief bio](/bio/) for talk ads and the like.
 <!--
 __<span style="color:#B31B1B">Journalists, media, and talk ads</span>__: here is a [brief biography](/bio/) suitable for print.
