@@ -11,6 +11,7 @@ dev:
 compile:
 	rm -rf public/
 	hugo --theme=$(THEME)
+	find public/ -type f -exec sed -i 's/_blank>"/_blank" rel="noopener>"/g' {} +
 	./plainify.sh
 
 github: compile
