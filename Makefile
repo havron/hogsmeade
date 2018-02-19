@@ -14,13 +14,19 @@ compile:
 	./plainify.sh
 
 github: compile
+	# git diff --name-only > cdn.invalidate # 
+	# needs to look inside public/ for this to work! (.gitignore)
 	git add -A
 	git commit -m "${MSG}"
-	git push
+	git push origin master
 
 aws: github
-	aws s3 sync --no-guess-mime-type --acl "public-read" --sse "AES256" public/ s3://${CNAME}/
-	aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths `git diff --name-only`
+	@echo "\nSyncing to ${CNAME} on Amazon Web Services...\n\n"
+	aws s3 sync --acl public-read --sse AES256 public/ s3://${CNAME}/ 
+	@echo "\nInvalidating all cache for ${CNAME} on Amazon Web Services...\n\n"
+	aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths /\*
+	@ # ^^^ not ideal! should only invalidate modified files...
+	@ # aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths $(shell cat cdn.invalidate | tr "\n" " ") # needs to look inside public/ for this to work!
 
 ${CNAME}.zip:
 	git archive --format=zip HEAD -o $@ -9v

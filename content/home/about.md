@@ -64,6 +64,7 @@ message me using [e-mail](/email/) (or more interestingly [with keybase](https:/
 My [blog](/blog) is here to stay -- but I'm currently in the process of rebooting it, and 
 mirroring posts with [Medium](https://medium.com/@samhavron).
 
+
 <!--
 Any URL that looks like "www.bagend.hobbiton.shire/~gandalf" generally admits
 "gandalf@bagend.hobbiton.shire" as an email address. 
