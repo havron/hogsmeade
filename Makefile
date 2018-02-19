@@ -1,34 +1,29 @@
 # Sam Havron, 12 December 2016
-.PHONY: dev html github new
+.PHONY: dev compile github new aws
 THEME=academic
-MSG=rebuilt site
-N=default.md
-Y=`date +"%Y"`
-S=blog/${Y}
-BN=`basename -s .md ${N}`
+CNAME=havron.xyz
+DISTRIBUTION_ID=EBRLR8UIL2LHP
+MSG=rebuilt ${CNAME}
 
 dev:
 	hugo server --theme=$(THEME) --watch
 
-html:
+compile:
 	rm -rf public/
 	hugo --theme=$(THEME)
 	./plainify.sh
 
-github: html
+github: compile
 	git add -A
 	git commit -m "${MSG}"
-	git push # pre-push hook triggers S3-sync
+	git push
 
-hogsmeade.zip:
-	git archive --format=zip HEAD -o hogsmeade.zip -9v
+aws: github
+	aws s3 sync --no-guess-mime-type --acl "public-read" --sse "AES256" public/ s3://${CNAME}/
+	aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths `git diff --name-only`
 
-hogsmeade.tar.gz:
-	git archive --format=tar.gz HEAD -o hogsmeade.tar.gz -9v
+${CNAME}.zip:
+	git archive --format=zip HEAD -o $@ -9v
 
-# see https://github.com/spf13/hugo/issues/452#issuecomment-231558158
-new:
-	hugo new ${S}/${N} && \
-	sed -i '/^date/!s/^.*-//' content/${S}/${N} && \
-	sed -i "s/\"*.md/\"${BN}/" content/${S}/${N}
-	vi +10 content/${S}/${N}
+${CNAME}.tar.gz:
+	git archive --format=tar.gz HEAD -o $@ -9v

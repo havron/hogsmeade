@@ -20,7 +20,7 @@
       <!-- Left Nav Bar -->
       <ul class="nav navbar-nav navbar-right">
         {{ range $.Site.Menus.main }}
-        <li class="nav-item"> <a href="{{ .URL | relURL }}">{{ .Pre }}&nbsp;&nbsp; {{ .Name }}</a></li>
+        <li class="nav-item" style="font-size:18px;"> <a href="{{ .URL | relURL }}">{{ .Pre }}&nbsp;&nbsp; {{ .Name }}</a></li>
         {{ end }}
       </ul>
 
