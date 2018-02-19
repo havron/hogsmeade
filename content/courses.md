@@ -4,6 +4,7 @@ Categories = [
   "teaching",
 ]
 Description = ""
+pre = "ticket"
 Tags = [
   "UVA",
   "cornell",
@@ -13,6 +14,10 @@ date = "2016-11-17T12:09:12-05:00"
 title = "courses"
 
 +++
+<img src="/img/bloomberg.jpg">
+### <div style="text-align:center">Inside the [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center) at Cornell Tech</div>
+
+
 # enrolled
 I spend most of my time on my [research](/research/) -- here are a few
 courses I took along the way in grad school:
@@ -27,7 +32,7 @@ and
 </li>
 <li>
 <i class="fa-li fa fa-university"></i>
-<a href="https://www.cs.cornell.edu/courses/cs6110/2017sp/" target="_blank">CS 6110: Advanced Programming Languages</a>, with 
+<a href="https://www.cs.cornell.edu/courses/cs6110/2018sp/" target="_blank">CS 6110: Advanced Programming Languages</a>, with 
 <a href="https://www.cs.cornell.edu/~asampson/" target="_blank">Prof. Adrian
 Sampson</a>
 </li>
@@ -36,16 +41,10 @@ Sampson</a>
 <a href="https://www.cs.cornell.edu/courses/cs6820/2017fa/" target="_blank">CS 6820: Analysis of Algorithms</a>, with 
 <a href="https://www.cs.cornell.edu/~rdk/" target="_blank">Prof. Bobby Kleinberg</a>
 </li>
-
-<li>
-<i class="fa-li fa fa-university"></i>
-<a href="https://www.cs.cornell.edu/courses/cs4740/2017fa/" target="_blank">CS 5740: Natural Language Processing</a>, with 
-<a href="https://www.cs.cornell.edu/home/cardie/" target="_blank">Prof. Claire Cardie</a>
-</li>
 </ul>
 
 # teaching
-Please take a look at the [**repository for remarkable
+TBD: [**Repository for remarkable
 teaching {{<fa github>}}**](https://github.com/havron/teaching) that I host on
 GitHub; therein lie some ideas and philosophies that are (perhaps)
 increasingly *rare*, *valuable*, and *meaningful* for world-class teaching.

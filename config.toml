@@ -94,9 +94,15 @@ dateFormat = "Monday, 2 January, 2006"
 
 
   [[params.social]]
-    icon = "newspaper-o"
+    icon = "medium"
     icon_pack = "fa"
-    link = "/blog/"
+    link = "//medium.com/@samhavron"
+    tab = true
+
+#  [[params.social]]
+#    icon = "newspaper-o"
+#    icon_pack = "fa"
+#    link = "/blog/"
 
   [[params.social]]
     icon = "twitter"
@@ -127,6 +133,7 @@ dateFormat = "Monday, 2 January, 2006"
     link = "//keybase.io/samh"
     tab = true
 
+
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
@@ -146,7 +153,7 @@ identifier = "research-1"
 url = "/research/"
 
 [[menu.main]]
-name = "bio/cv"
+name = "bio+cv"
 pre = '<i class="fa fa-id-card-o" aria-hidden="true"></i>'
 weight = -109
 identifier = "about me-2"
@@ -162,9 +169,9 @@ url = "/trivia/"
 [[menu.main]]
 name = "blog"
 weight = -10
-pre = '<i class="fa fa-newspaper-o" aria-hidden="true"></i>'
+pre = '<i class="fa fa-medium" aria-hidden="true"></i>'
 identifier = "blog-1"
-url = "/blog/"
+url = "https://medium.com/@samhavron/"
 
 [[menu.main]]
 name = "courses"

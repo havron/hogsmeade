@@ -29,7 +29,7 @@ weight = -1
   courseURL = "https://engineering.virginia.edu/departments/computer-science/academics/computer-science-undergraduate-programs/"
   departmentURL = "https://www.cs.virginia.edu"
   department = "cs.virginia.edu"
-  institution = "Security Research Group"
+  institution = "Jefferson's Wheel"
   group = "https://www.jeffersonswheel.org/"
   year = "2017"
   spin = ""
@@ -44,7 +44,7 @@ weight = -1
 +++
 
 # Welcome
-Hiya, thanks for using [TLS](https://tlseminar.github.io/tls-future/)!
+Hiya, thanks for using [tls](https://tlseminar.github.io/tls-future/)!
 I'm currently working with [Professor Tom Ristenpart](https://rist.tech.cornell.edu) and
 [Professor Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of intimate partner violence. 
 
@@ -54,14 +54,15 @@ us."* - C.S. Lewis
 -->
 
 # Contacting Me
-**<span style="color: #b31b1b">{{<fa exclamation>}} notice: I am in New York City, December 11th-15th.</span>**
+_**{{<fa exclamation>}} notice: I am in New York City, February 28th-March 7th.**_
 
 [You can book me](https://havron.youcanbook.me) for meetings 
 ([New York City](https://tech.cornell.edu/campus/bloomberg-center)/[Ithaca](https://www.cs.cornell.edu/information/ithaca)/video chat),
 message me using [e-mail](/email/) (or more interestingly [with keybase](https://keybase.io/samh)), and copy/paste this [brief bio](/bio/) for talk ads and the like.
-<!--
-__<span style="color:#B31B1B">Journalists, media, and talk ads</span>__: here is a [brief biography](/bio/) suitable for print.
--->
+
+## Blog Notice
+My [blog](/blog) is here to stay -- but I'm currently in the process of rebooting it, and 
+mirroring posts with [Medium](https://medium.com/@samhavron).
 
 <!--
 Any URL that looks like "www.bagend.hobbiton.shire/~gandalf" generally admits

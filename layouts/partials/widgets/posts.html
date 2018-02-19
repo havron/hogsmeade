@@ -2,14 +2,15 @@
 {{ $page := .page }}
 
 {{ $blogs_len := len (where (where $.Data.Pages "Type" "blog") ".Params.notonhomepage" nil) }}
-{{ if gt $blogs_len 0 }}
+{{ if eq $blogs_len 0 }}
+^^^ change to gt to bring this back!
 <!-- Blog Posts widget -->
 <section id="blogs" class="home-section">
   <div class="container">
 
     <div class="row">
         <div class="col-xs-0 col-md-12 section-heading">
-        <h1 style="color:#B31B1B">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+          <h1 style="color:#B31B1B">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
         
         {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
         {{ if gt $blogs_len $page.Params.count }}

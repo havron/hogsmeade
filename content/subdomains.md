@@ -3,12 +3,14 @@ Headline = "subdomains"
 Title = "subdomains"
 Description = ""
 Tags = []
+pre = "subway"
 Categories = []
 2016 = "11"
 reddit_comment_code = ""
 reddit_underscored_name = ""
 fn = ".md"
 +++
+
 One of the more compelling reasons to manage a personal domain 
 rather than depending on [/~academic/
 webpages](https://www.cs.cornell.edu/~havron/) is the ability to easily create 
@@ -16,7 +18,7 @@ subdomains and link them to dynamic and static backend servers, RESTful lambda g
 All of my publicly-exposed subdomains are as follows; no need to run that hacky
 dig/nmap/superstarred {{<fa github >}} script...
 
-**Subdomains currently maintained:**
+<span style="font-size: 40px; font-family: 'Lato', sans-serif;  font-weight: 700">Subdomains currently maintained</span>
 <ul class="ul-interests fa-ul">
 
 <li>
@@ -37,7 +39,16 @@ suspect this may become the default home for them in the future.
 to `havron.xyz`.
 </li>
 
-**Some subdomains I'd like to add in the future!**
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+`m.havron.xyz`; my [mailgun](https://www.mailgun.com/)
+API endpoint. It's what allows my [personal email addresses](/email/) to be
+routed.
+</li>
+</ul>
+
+<span style="font-size: 40px; font-family: 'Lato', sans-serif;  font-weight: 700">Some subdomains I'd like to add in the future!</span>
+<ul class="ul-interests fa-ul">
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
@@ -62,14 +73,9 @@ repositories, a GitLab/git server is in order.
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 `blog.havron.xyz`; this [already exists](https://havron.xyz/blog) as a subdirectory on my personal 
-webpages, but it may need to move at some point.
-</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-`mail.havron.xyz`; a mailserver, probably for automating the creation and
-distribution of large e-mail batches, and for e-mail aliases that forward to my
-academic address.
+webpages, but it may need to move at some point. I'm mostly [on
+Medium](https://medium.com/@samhavron) at
+this point.
 </li>
 
 <li>

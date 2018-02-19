@@ -1,6 +1,7 @@
 +++
 reddit_underscored_name = ""
 nodate = "True"
+pre = "quote-right"
 Description = ""
 Tags = [
 ]
@@ -12,6 +13,8 @@ Categories = [
 2016 = "11"
 
 +++
+![xkcd](/img/tatastairs.jpg)
+### <div style="text-align:center">Grand Staircase in the [Tata Innovation Center](https://tech.cornell.edu/campus/tata-innovation-center) at Cornell Tech</div>
 
 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ask me about"...</h2>
 <ul class="ul-interests fa-ul">

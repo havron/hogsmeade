@@ -8,7 +8,7 @@
     <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner" itemprop="image">
     {{end}}
 
-    <h1 style="font-size:3em; color:#B31B1B" itemprop="name">{{ .Title }}</h1>
+    <h1 style="font-size:3em; color:#B31B1B" itemprop="name"><i class="fa fa-{{ .Params.pre }}" aria-hidden="true"></i> {{ .Title }}</h1>
 
     <!--
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
