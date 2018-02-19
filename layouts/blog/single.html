@@ -12,7 +12,7 @@
     <h1 style="font-size:3em; color:#222222" itemprop="name">{{ .Title }}</h1>
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
 
-    <span style="font-size:.7em"><a href="https://github.com/spf13/hugo/blob/1d7f4413f55073b9ea9a9fc9dd4f1792915fe8e1/hugolib/page.go#L401-L414" target="_blank">{{.WordCount }}</a> words (<a href="https://github.com/spf13/hugo/blob/1d7f4413f55073b9ea9a9fc9dd4f1792915fe8e1/hugolib/page.go#L401-L423" target="_blank">{{ .ReadingTime }}m</a>)
+    <span style="font-size:.7em"><a href="https://github.com/spf13/hugo/blob/1d7f4413f55073b9ea9a9fc9dd4f1792915fe8e1/hugolib/page.go#L401-L414" target="_blank" rel="noopener">{{.WordCount }}</a> words (<a href="https://github.com/spf13/hugo/blob/1d7f4413f55073b9ea9a9fc9dd4f1792915fe8e1/hugolib/page.go#L401-L423" target="_blank" rel="noopener">{{ .ReadingTime }}m</a>)
     </span>
 <hr style="border-width:5px">
     <div class="article-style" itemprop="articleBody">
@@ -23,8 +23,8 @@
 <hr style="border-width:5px">
 <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>&nbsp;&nbsp;view &ldquo;{{ .Title  }}&rdquo; in...
 <br>
-<a href="{{ .RelPermalink  }}../raw/{{ .Params.fn  }}.txt" target="_blank">plaintext (.txt)</a> | <a href="{{ .RelPermalink  }}../raw/{{ .Params.fn  }}.md" target="_blank">markdown (.md)</a>
-<br><i>please attribute any content discrepancies to <a href="https://github.com/samuelhavron/hogsmeade/blob/master/plainify.sh" target="_blank">this script</i></a>.
+<a href="{{ .RelPermalink  }}../raw/{{ .Params.fn  }}.txt" target="_blank" rel="noopener">plaintext (.txt)</a> | <a href="{{ .RelPermalink  }}../raw/{{ .Params.fn  }}.md" target="_blank" rel="noopener">markdown (.md)</a>
+<br><i>please attribute any content discrepancies to <a href="https://github.com/samuelhavron/hogsmeade/blob/master/plainify.sh" target="_blank" rel="noopener">this script</i></a>.
 {{ partial "reddit.html" . }}
   </article>
 

@@ -25,21 +25,21 @@ courses I took along the way in grad school:
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-university"></i>
-<a href="https://www.cs.cornell.edu/~shmat/courses/cs6431/" target="_blank">CS 6431: Security and Privacy Technologies</a>, with 
-<a href="https://www.cs.cornell.edu/~shmat/" target="_blank">Prof. Vitaly Shmatikov</a>
+<a href="https://www.cs.cornell.edu/~shmat/courses/cs6431/" target="_blank" rel="noopener">CS 6431: Security and Privacy Technologies</a>, with 
+<a href="https://www.cs.cornell.edu/~shmat/" target="_blank" rel="noopener">Prof. Vitaly Shmatikov</a>
 and
-<a href="https://rist.tech.cornell.edu/" target="_blank">Prof. Tom Ristenpart</a>
+<a href="https://rist.tech.cornell.edu/" target="_blank" rel="noopener">Prof. Tom Ristenpart</a>
 </li>
 <li>
 <i class="fa-li fa fa-university"></i>
-<a href="https://www.cs.cornell.edu/courses/cs6110/2018sp/" target="_blank">CS 6110: Advanced Programming Languages</a>, with 
-<a href="https://www.cs.cornell.edu/~asampson/" target="_blank">Prof. Adrian
+<a href="https://www.cs.cornell.edu/courses/cs6110/2018sp/" target="_blank" rel="noopener">CS 6110: Advanced Programming Languages</a>, with 
+<a href="https://www.cs.cornell.edu/~asampson/" target="_blank" rel="noopener">Prof. Adrian
 Sampson</a>
 </li>
 <li>
 <i class="fa-li fa fa-university"></i>
-<a href="https://www.cs.cornell.edu/courses/cs6820/2017fa/" target="_blank">CS 6820: Analysis of Algorithms</a>, with 
-<a href="https://www.cs.cornell.edu/~rdk/" target="_blank">Prof. Bobby Kleinberg</a>
+<a href="https://www.cs.cornell.edu/courses/cs6820/2017fa/" target="_blank" rel="noopener">CS 6820: Analysis of Algorithms</a>, with 
+<a href="https://www.cs.cornell.edu/~rdk/" target="_blank" rel="noopener">Prof. Bobby Kleinberg</a>
 </li>
 </ul>
 
