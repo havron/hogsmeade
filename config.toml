@@ -107,7 +107,7 @@ dateFormat = "Monday, 2 January, 2006"
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/samhavron"
+    link = "https://twitter.com/samhavron"
     tab = true
 
   #[[params.social]]

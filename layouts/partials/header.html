@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="keywords" content="Samuel Havron, computer science, Sam Havron, virginia">
+  <meta name="theme-color" content="#b31b1b"/>
+  <meta name="keywords" content="sam havron, computer science, havron, virginia, cornell, new york city, ithaca, phd, graduate student, computer security, privacy, cornell tech">
+  <meta name="application-name" content="sam havron">
 
   {{ .Hugo.Generator }}
-  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.Name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.Description }}<meta name="description" content="{{ . }}">{{ end }}
 
   <link rel="stylesheet" href="{{ "/css/highlight.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/academicons.min.css" | relURL }}">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:800|Lato:400,700|Merriweather" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/hugo-academic.css" | relURL }}">
   {{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
+	<link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
   {{ end }}
 
+  {{ if or .Site.RSSLink .RSSLink }}
   <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
   <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
-
-  <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
-  <link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+	{{ end }}
 
   <link rel="canonical" href="{{ .Permalink }}">
+
+  <meta property="twitter:card" content="summary_large_image">
+  {{ range where $.Site.Params.social ".icon" "twitter" }}
+  <meta property="twitter:site" content="@{{ replaceRE "^//twitter.com/([^/]+)" "$1" .link }}">
+  <meta property="twitter:creator" content="@{{ replaceRE "^//twitter.com/([^/]+)" "$1" .link  }}">
+  {{ end }}
+
+  <!-- <link rel="icon" type="image/png" href='{{ "/img/icon.png?v=ngkpR7vzgN" | relURL }}'> -->
+  <link rel="apple-touch-icon" sizes="180x180" href='{{ "/img/apple-touch-icon.png?v=ngkpR7vzgN" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="32x32" href='{{ "/img/favicon-32x32.png?v=ngkpR7vzgN" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="16x16" href='{{ "/img/favicon-16x16.png?v=ngkpR7vzgN" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="192x192" href='{{ "/img/android-chrome-192x192.png" | relURL }}'>
+  <link rel="mask-icon" href='{{ "/img/safari-pinned-tab.svg?v=ngkpR7vzgN" | relURL }}' color="#5bbad5">
+  <link rel="shortcut icon" href='{{ "/img/favicon.ico?v=ngkpR7vzgN" | relURL }}'>
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" type="application/manifest+json" href='{{ "site.webmanifest.json?v=ngkpR7vzgN" | relURL }}'>
+
+	{{ if .IsPage }}
+  {{ if not .PublishDate.IsZero }}
+  <meta property="article:published_time" content='{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}'>
+  {{ else if not .Date.IsZero }}<meta property="article:published_time" content='{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}'>{{ end }}
+  {{ if not .Lastmod.IsZero }}<meta property="article:modified_time" content='{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}'>{{ end }}
+  {{ else }}
+  {{ if not .Date.IsZero }}<meta property="og:updated_time" content='{{ now.Format "2006-01-02T15:04:05-07:00" | safeHTML }}'>{{ end }}
+  {{ end }}
 
   {{ partial "head_custom" . }}
 

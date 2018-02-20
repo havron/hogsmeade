@@ -110,7 +110,8 @@ src="//speakerdeck.com/assets/embed.js"></script> -->
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 [Louis T. Rader Award for Outstanding
-Undergraduate Education (2017)](https://uvacomputerscience.com/2017/05/12/congratulations-to-our-cs-award-winners/)
+Undergraduate Education
+(2017)](https://uvacsnews.wordpress.com/2017/05/12/congratulations-to-our-cs-award-winners/)
 </li>
 </ul>
 ![xkcd](/img/identity.png)

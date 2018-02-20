@@ -1,0 +1,47 @@
+{
+    "name": "Academic webpages for Sam Havron",
+    "short_name": "Sam Havron",
+    "icons": [
+        {
+            "src": "/img/android-chrome-192x192.png?v=ngkpR7vzgN",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/favicon-16x16.png?v=ngkpR7vzgN",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/favicon-32x32.png?v=ngkpR7vzgN",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/favicon.ico?v=ngkpR7vzgN",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/img/mstile-150x150.png?v=ngkpR7vzgN",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/apple-touch-icon.png?v=ngkpR7vzgN",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/android-chrome-384x384.png?v=ngkpR7vzgN",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./?utm_source=web_app_manifest",
+    "theme_color": "#b31b1b",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "lang": "en-US",
+    "dir": "ltr"
+}
