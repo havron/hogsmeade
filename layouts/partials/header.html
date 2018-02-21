@@ -13,12 +13,11 @@
   {{ with .Site.Params.Name }}<meta name="author" content="{{ . }}">{{ end }}
   {{ with .Site.Params.Description }}<meta name="description" content="{{ . }}">{{ end }}
 
-  <link rel="stylesheet" href="{{ "/css/highlight.min.css" | relURL }}">
+  <!-- <link rel="stylesheet" href="{{ "/css/highlight.min.css" | relURL }}"> -->
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "/css/academicons.min.css" | relURL }}">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata:800|Lato:400,700|Merriweather" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "/css/hugo-academic.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/css/hugo-academic.min.css" | relURL }}">
 
   {{ if or .Site.RSSLink .RSSLink }}
   <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">

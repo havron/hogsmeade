@@ -9,6 +9,9 @@ dev:
 	hugo server --theme=$(THEME) --watch
 
 compile:
+	# wget --post-data="input=`cat static/css/hugo-academic.css`" --output-document=static/css/hugo-academic.min.css https://cssminifier.com/raw
+	# wget --post-data="input=`cat static/js/hugo-academic.js`" --output-document=static/js/hugo-academic.min.js https://javascript-minifier.com/raw
+	# ^^^ minify requires testbed with header.html and footer.html! (JS errors)
 	rm -rf public/
 	hugo --theme=$(THEME)
 	find public/ -type f -exec sed -i 's/_blank">/_blank" rel="noopener">/g' {} +
