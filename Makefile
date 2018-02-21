@@ -1,5 +1,5 @@
 # Sam Havron, 12 December 2016
-.PHONY: dev compile github new aws
+.PHONY: dev compile github aws
 THEME=academic
 CNAME=havron.xyz
 DISTRIBUTION_ID=EBRLR8UIL2LHP
