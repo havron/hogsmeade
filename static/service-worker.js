@@ -1,7 +1,7 @@
-const CACHE_VERSION = '1'; 
+var CACHE_VERSION = '1'; 
 // ^^^ need to edit this automatically with Hugo or `sed -i`
 
-const BASE_CACHE_FILES = [
+var BASE_CACHE_FILES = [
     '/index.html',
     '/research/index.html',
     '/courses/index.html',
@@ -35,7 +35,7 @@ const BASE_CACHE_FILES = [
     '/js/hugo-academic.js'
 ];
 
-const OFFLINE_CACHE_FILES = [
+var OFFLINE_CACHE_FILES = [
     '/offline/index.html',
     '/css/bootstrap.min.css',
     '/css/fontawesome.min.css',
@@ -59,7 +59,7 @@ const OFFLINE_CACHE_FILES = [
     '/js/hugo-academic.js'
 ];
 
-const NOT_FOUND_CACHE_FILES = [
+var NOT_FOUND_CACHE_FILES = [
     '/404.html',
     '/css/bootstrap.min.css',
     '/css/fontawesome.min.css',
@@ -83,10 +83,11 @@ const NOT_FOUND_CACHE_FILES = [
     '/js/hugo-academic.js'
 ];
 
-const OFFLINE_PAGE = '/offline/index.html';
-const NOT_FOUND_PAGE = '/404.html';
+var OFFLINE_PAGE = '/offline/index.html';
+var NOT_FOUND_PAGE = '/404.html';
 
-const CACHE_VERSIONS = {
+
+var CACHE_VERSIONS = {
     assets: 'assets-v' + CACHE_VERSION,
     content: 'content-v' + CACHE_VERSION,
     offline: 'offline-v' + CACHE_VERSION,
@@ -94,7 +95,7 @@ const CACHE_VERSIONS = {
 };
 
 // Define MAX_TTL's in SECONDS for specific file extensions
-const MAX_TTL = {
+var MAX_TTL = {
     '/': 3600,
     html: 3600,
     json: 86400,
@@ -102,13 +103,13 @@ const MAX_TTL = {
     css: 86400,
 };
 
-const CACHE_BLACKLIST = [
+var CACHE_BLACKLIST = [
     //(str) => {
     //    return !str.startsWith('http://localhost') && !str.startsWith('https://gohugohq.com');
     //},
 ];
 
-const SUPPORTED_METHODS = [
+var SUPPORTED_METHODS = [
     'GET',
 ];
 
