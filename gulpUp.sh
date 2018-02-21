@@ -4,3 +4,4 @@ npm install --save-dev sw-precache
 npm install --save-dev run-sequence
 npm install gulp-batch
 npm install gulp
+npm install --global gulp
