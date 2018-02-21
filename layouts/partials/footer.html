@@ -1,5 +1,5 @@
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="{{ "/js/TweenMax.min.js" | relURL }}"></script>
+    <script src="{{ "/js/ScrollToPlugin.min.js" | relURL }} "></script>
     <script src="{{ "/js/jquery-1.12.3.min.js" | relURL }}"></script>
     <script src="{{ "/js/bootstrap.min.js" | relURL }}"></script>
     <script src="{{ "/js/hugo-academic.js" | relURL }}"></script>
@@ -30,7 +30,7 @@
     {{ end }}
 
     <!-- Code highlighting -->
-    <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script async src="{{ "/js/highlight.min.js" | relURL }}"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     <!-- LaTeX math rendering -->
@@ -40,6 +40,38 @@
     </script>
     <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
     {{ end }}
+
+	<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(function(registration) {
+                console.log('Service Worker Registered');
+            });
+
+        navigator.serviceWorker
+            .ready
+            .then(function(registration) {
+                console.log('Service Worker Ready');
+            });
+    }
+</script>
+
+		<script>
+			if('serviceWorker' in navigator) {
+					navigator.serviceWorker
+							.register('/service-worker.js', { scope: '/' })
+							.then(function(registration) {
+									console.log('Service Worker Registered');
+							});
+
+					navigator.serviceWorker
+							.ready
+							.then(function(registration) {
+									console.log('Service Worker Ready');
+							});
+			}
+		</script>
 
   </body>
 </html>
