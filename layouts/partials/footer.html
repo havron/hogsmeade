@@ -1,8 +1,8 @@
-    <script async src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script async src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
     <script src="{{ "/js/jquery-1.12.3.min.js" | relURL }}"></script>
-    <script defer="defer" src="{{ "/js/bootstrap.min.js" | relURL }}"></script>
-    <script defer="defer" src="{{ "/js/hugo-academic.js" | relURL }}"></script>
+    <script src="{{ "/js/bootstrap.min.js" | relURL }}"></script>
+    <script src="{{ "/js/hugo-academic.js" | relURL }}"></script>
     {{ range .Site.Params.custom_js }}
     <script src="{{ "/js/" | relURL }}{{ . }}"></script>
     {{ end }}
