@@ -57,7 +57,7 @@
   <meta name="theme-color" content="#ffffff">
 
   {{ with .Site.Params.manifest }}
-  <link rel="manifest" type="application/manifest+json" href='{{ "/" | relURL }} {{ . }}'>
+  <link rel="manifest" type="application/manifest+json" href='{{ "/" | relURL }}{{ . }}'>
   {{ end }}
 
 	{{ if .IsPage }}
