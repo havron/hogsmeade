@@ -28,7 +28,7 @@ gulp.task('eduscripts', function() {
         .pipe(gulp.dest('public/js/'));
 });
 
-gulp.task('generate-service-worker', function(callback) {
+gulp.task('xyzgenerate-service-worker', function(callback) {
   var path = require('path');
   var swPrecache = require('sw-precache');
   var rootDir = 'public';
@@ -37,6 +37,19 @@ gulp.task('generate-service-worker', function(callback) {
     /** This is the place where you could change / make the patterns on which files should be going into precache **/
     staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,eot,svg,ttf,woff,woff2,otf}'],
     stripPrefix: rootDir
+  }, callback);
+});
+
+gulp.task('edugenerate-service-worker', function(callback) {
+  var path = require('path');
+  var swPrecache = require('sw-precache');
+  var rootDir = 'public';
+
+  swPrecache.write(path.join(rootDir, 'service-worker.js'), {
+    /** This is the place where you could change / make the patterns on which files should be going into precache **/
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,eot,svg,ttf,woff,woff2,otf}'],
+    stripPrefix: rootDir,
+    replacePrefix: '/~havron'
   }, callback);
 });
 
@@ -69,7 +82,7 @@ gulp.task('xyzbuild', function(callback) {
               'hugo:xyzbuild',
               'xyzscripts',
               'styles',
-              'generate-service-worker',
+              'xyzgenerate-service-worker',
               callback);
 });
 
@@ -78,7 +91,7 @@ gulp.task('edubuild', function(callback) {
               'hugo:edubuild',
               'eduscripts',
               'styles',
-              'generate-service-worker',
+              'edugenerate-service-worker',
               callback);
 });
 

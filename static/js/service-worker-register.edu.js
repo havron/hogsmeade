@@ -1,6 +1,6 @@
 if('serviceWorker' in navigator) {
 navigator.serviceWorker
-         .register('/service-worker.js',{ scope: '/~havron/' })
+         .register('./service-worker.js',{ scope: '../~havron/' })
          .then(function() {});
 }
 
@@ -8,7 +8,7 @@ navigator.serviceWorker
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/service-worker.js', { scope: '/~havron/' }).then(function(reg) {
+    navigator.serviceWorker.register('./service-worker.js', { scope: '../~havron/' }).then(function(reg) {
       
       reg.onupdatefound = function() {
         var installingWorker = reg.installing;
