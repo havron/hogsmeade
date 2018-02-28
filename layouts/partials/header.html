@@ -8,10 +8,21 @@
   <!-- <link rel="stylesheet" href="{{ "/css/highlight.min.css" | relURL }}"> 
   ?v=ngkpR7vzgN
   -->
+  <!-- https://codepen.io/Vincinho/pen/ZQBLGO in case we need dropdown menus again, get this CSS -->
+	<!--
+				/* * Open dropdowns on hover instead of click.  */ @media (min-width: 768px) { .dropdown:hover { background: #e7e7e7; } .dropdown:hover > .dropdown-menu { display: block; } } /* * The following is needed since the dropdowns are <div> elements instead * of <a> elements */ .nav > li > div { position: relative; display: block; padding: 10px 15px; cursor: default; } .navbar-nav > li > div { padding-top: 15px; padding-bottom: 15px; line-height: 20px; } .navbar-default .navbar-nav > li > div { color: rgb(119, 119, 119); } .navbar-collapse.collapse { display: none; } .dropdown-open { background: #e7e7e7; }
+	-->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:800|Lato:400,700|Merriweather" rel="stylesheet">
+  {{ if .Site.BuildDrafts }}
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relURL }}">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata:800|Lato:400,700|Merriweather" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "/css/hugo-academic.min.css" | relURL }}">
+  <!-- minified anyways, thanks to gulpfile. this just helps the dev process. -->
+  <link rel="stylesheet" href="{{ "/css/hugo-academic.css" | relURL }}">
+  {{ end }}
+
+  {{ if not .Site.BuildDrafts }}
+  <link rel="stylesheet" href="{{ "/css/style.min.css" | relURL }}">
+  {{ end }}
 
   <meta name="theme" content="hugo-academic">
   <meta name="theme-color" content="#b31b1b"/>

@@ -2,6 +2,24 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var exec = require('child_process').execSync;
 var runSequence = require('run-sequence');
+let cleanCSS = require('gulp-clean-css');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+
+
+gulp.task('styles', () => {
+  return gulp.src(['static/css/*.css','!static/css/*.old.css'])
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(concat('style.min.css'))
+    .pipe(gulp.dest('public/css/'));
+});
+
+gulp.task('scripts', function() {
+    return gulp.src('static/js/*.js')
+        .pipe(uglify())
+        .pipe(concat('scripts.min.js'))
+        .pipe(gulp.dest('public/js/'));
+});
 
 gulp.task('generate-service-worker', function(callback) {
   var path = require('path');
@@ -36,6 +54,8 @@ gulp.task('hugo:clean', function() {
 gulp.task('build', function(callback) {
   runSequence('hugo:clean',
               'hugo:build',
+							'scripts',
+              'styles',
               'generate-service-worker',
               callback);
 });

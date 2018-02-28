@@ -12,6 +12,8 @@ name = "Sam Havron"
 plainIDAnchors = true
 hrefTargetBlank = true
 
+# {{ if .Site.Contact isn't a thing }}
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
@@ -45,11 +47,11 @@ dateFormat = "Monday, 2 January, 2006"
   role = "First-Year Grad Student"
   organization = "Studio: 302 Gates Hall"
   avatar = "me.jpg"
-  email = "echo @cs.cornell.edu | sed 's/^/havron/'"
-  address = "302 Gates Hall, Cornell University, Ithaca NY 14853"
+  #email = "echo @cs.cornell.edu | sed 's/^/havron/'"
+  #address = "302 Gates Hall, Cornell University, Ithaca NY 14853"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = "samh"
+  #keybase = "samh"
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"

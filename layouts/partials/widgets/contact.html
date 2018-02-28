@@ -2,6 +2,7 @@
 {{ $page := .page }}
 {{ $autolink := default true $page.Params.autolink }}
 
+{{ if .Site.Contact }}
 <!-- Contact widget -->
 <section id="contact" class="home-section">
   <div class="container">
@@ -57,3 +58,4 @@
 
   </div>
 </section>
+{{ end }}

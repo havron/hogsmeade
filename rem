@@ -1,0 +1,150 @@
+a:focus {
+a:hover,
+.alert-warning {
+  background-color: #000;
+  background-color: #e5e5e5;
+  background-color: #f7f7f7;
+  background-color: #f9f9f9;
+  background-color: #fff;
+  background-color: transparent;
+  blockquote {
+blockquote {
+body {
+  border-bottom: 2px solid #ddd;
+  border-color: #bce8f1;
+  border-color: #ebccd1;
+  border-radius: 10px;
+  border-radius: 15px;
+  border-top: 0;
+  border-top: 1px solid #ddd;
+  border-top: 2px solid #ddd;
+.btn-primary {
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:focus,
+code {
+  color: #5bc0de;
+  color: #5cb85c;
+  color: #d9534f;
+  color: #f0ad4e;
+  color: #fff;
+  color: #fff;
+  color: #fff;
+  color: #fff;
+  color: #fff;
+  color: #fff;
+  color: inherit;
+  color: inherit;
+  content: " ";
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+    display: block !important;
+  display: inline-block;
+  display: inline-block;
+    display: none !important;
+  display: table;
+    float: none;
+  float: right;
+  font-family: inherit;
+  font-size: 14px;
+  font-size: 16px;
+  font-size: 16px;
+  font-style: italic;
+  font-style: normal;
+  font-weight: 300;
+  font-weight: bold;
+  font-weight: bold;
+h1 {
+  height: 30px;
+  height: auto;
+  height: auto;
+  height: auto;
+html {
+.jumbotron {
+  line-height: 30px;
+  line-height: inherit;
+  line-height: normal;
+.list-group-item {
+.list-group-item-heading {
+.list-group-item-text {
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  margin: 0;
+  margin: 0;
+  margin: 0;
+  margin: 0;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+    margin-bottom: 5px;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-left: auto;
+  margin-right: 0;
+  margin-right: 0;
+  margin-right: 5px;
+  margin-right: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-top: 0;
+  margin-top: 0;
+  margin-top: 0;
+  max-width: 100%;
+  max-width: 100%;
+  max-width: 100%;
+  .navbar {
+.navbar {
+  .navbar-collapse {
+  .navbar-collapse.collapse {
+.navbar-default {
+.navbar-default .navbar-brand {
+  .navbar-header {
+  .navbar-nav {
+  .navbar-nav > li {
+  .navbar-nav > li > a {
+  .navbar-right {
+  .navbar-toggle {
+.open > .dropdown-toggle.btn-primary {
+  overflow: auto;
+p {
+  padding: 0;
+  padding: 0;
+  padding: 8px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  position: absolute;
+  position: absolute;
+  position: relative;
+  position: relative;
+  position: relative;
+pre {
+pre,
+.row:after,
+table {
+  text-align: center;
+  text-align: center;
+  text-align: center;
+  text-align: center;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    top: 0;
+  vertical-align: bottom;
+  vertical-align: top;
+video {
+  white-space: nowrap;
+  width: 100%;
+  width: 100%;
+  width: 100%;
+  width: 30px;
