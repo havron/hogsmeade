@@ -14,8 +14,15 @@ gulp.task('styles', () => {
     .pipe(gulp.dest('public/css/'));
 });
 
-gulp.task('scripts', function() {
-    return gulp.src('static/js/*.js')
+gulp.task('xyzscripts', function() {
+    return gulp.src(['static/js/*.js','!static/js/*.edu.js'])
+        .pipe(uglify())
+        .pipe(concat('scripts.min.js'))
+        .pipe(gulp.dest('public/js/'));
+});
+
+gulp.task('eduscripts', function() {
+    return gulp.src(['static/js/*.js','!static/js/*.xyz.js'])
         .pipe(uglify())
         .pipe(concat('scripts.min.js'))
         .pipe(gulp.dest('public/js/'));
@@ -33,14 +40,20 @@ gulp.task('generate-service-worker', function(callback) {
   }, callback);
 });
 
-gulp.task('hugo:build', function() {
-	var result = exec("hugo", {encoding: 'utf-8'});
+gulp.task('hugo:xyzbuild', function() {
+	var result = exec("hugo --config config.xyz.toml", {encoding: 'utf-8'});
+    gutil.log('hugo:build: \n' + result);
+    return result;
+});
+
+gulp.task('hugo:edubuild', function() {
+	var result = exec("hugo --config config.edu.toml", {encoding: 'utf-8'});
     gutil.log('hugo:build: \n' + result);
     return result;
 });
 
 gulp.task('hugo:builddrafts', function() {
-  var result = exec("hugo --buildDrafts", {encoding: 'utf-8'});
+  var result = exec("hugo --buildDrafts --config config.xyz.toml", {encoding: 'utf-8'});
     gutil.log('hugo:builddrafts: \n' + result);
     return result;
 });
@@ -51,10 +64,19 @@ gulp.task('hugo:clean', function() {
     return result;
 });
 
-gulp.task('build', function(callback) {
+gulp.task('xyzbuild', function(callback) {
   runSequence('hugo:clean',
-              'hugo:build',
-							'scripts',
+              'hugo:xyzbuild',
+              'xyzscripts',
+              'styles',
+              'generate-service-worker',
+              callback);
+});
+
+gulp.task('edubuild', function(callback) {
+  runSequence('hugo:clean',
+              'hugo:edubuild',
+              'eduscripts',
               'styles',
               'generate-service-worker',
               callback);

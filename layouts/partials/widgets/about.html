@@ -11,7 +11,8 @@
 
           {{ with $.Site.Params.avatar }}
           <div class="portrait" itemprop="image"
-               style="background-image: url('{{ "/img/" | relURL }}{{ . }}');">
+                 style="background-image: url('{{ . }}');">
+            <!-- style="background-image: url('{{ "img" | relURL }}{{ . }}');"> -->
           </div>
           {{ end }}
           <div class="portrait-title">

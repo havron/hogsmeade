@@ -11,7 +11,8 @@ reddit_underscored_name = ""
 fn = ".md"
 +++
 
-One of the more compelling reasons to manage a personal domain 
+One of the more compelling reasons to manage a [personal
+domain](https://havron.xyz) 
 rather than depending on [/~academic/
 webpages](https://www.cs.cornell.edu/~havron/) is the ability to easily create 
 subdomains and link them to dynamic and static backend servers, RESTful lambda gateways, and so forth. 

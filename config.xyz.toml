@@ -39,6 +39,8 @@ copyright = "Unless otherwise specified by the author, this work is licensed und
 [params]
 repository="https://github.com/havron/web"
 layoutReverse = true
+titl = "havron.xyz"
+mirror = "https://www.cs.cornell.edu/~havron/"
 themeColor = "theme-base-0b"
 description = "webpages of Sam Havron, computer science student"
 footerFormat = "2006-Jan-02"
@@ -46,7 +48,7 @@ dateFormat = "Monday, 2 January, 2006"
   name = "Sam Havron"
   role = "First-Year Grad Student"
   organization = "Studio: 302 Gates Hall"
-  avatar = "me.jpg"
+  avatar = "/img/me.jpg"
   #email = "echo @cs.cornell.edu | sed 's/^/havron/'"
   #address = "302 Gates Hall, Cornell University, Ithaca NY 14853"
 
