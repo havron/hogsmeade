@@ -68,7 +68,7 @@ dateFormat = "Monday, 2 January, 2006"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["custom-nomin.css"]
+  manifest = "site.webmanifest.xyz.json"
 
   custom_js  = []
 

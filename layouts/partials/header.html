@@ -55,7 +55,10 @@
   <link rel="shortcut icon" href='{{ "/img/favicon.ico" | relURL }}'>
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="theme-color" content="#ffffff">
-  <link rel="manifest" type="application/manifest+json" href='{{ "site.webmanifest.json" | relURL }}'>
+
+  {{ with .Site.Params.manifest }}
+  <link rel="manifest" type="application/manifest+json" href='{{ "/" | relURL }} {{ . }}'>
+  {{ end }}
 
 	{{ if .IsPage }}
   {{ if not .PublishDate.IsZero }}
