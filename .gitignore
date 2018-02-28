@@ -2,4 +2,4 @@ public/
 *.swp
 exampleSite/
 cdn.invalidate
-node_modules
+node_modules/
