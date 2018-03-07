@@ -15,6 +15,10 @@ if ('serviceWorker' in navigator) {
 
         installingWorker.onstatechange = function() {
           switch (installingWorker.state) {
+						case 'activated':
+							if (!navigator.serviceWorker.controller) {
+             	 document.querySelector('.offline-ready').classList.add('active');
+            	}
             case 'installed':
               if (navigator.serviceWorker.controller) {
                 console.log('New or updated content is available. Please refresh.');

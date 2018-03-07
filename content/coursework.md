@@ -15,7 +15,7 @@ title = "courses"
 
 +++
 <img src="/img/bloomberg.jpg">
-### <div style="text-align:center">Inside the [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center) at Cornell Tech</div>
+### <div style="text-align:center">Inside the [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center)</div>
 
 
 # enrolled

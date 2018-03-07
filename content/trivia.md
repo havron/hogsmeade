@@ -14,7 +14,7 @@ Categories = [
 
 +++
 ![xkcd](/img/tatastairs.jpg)
-### <div style="text-align:center">Grand Staircase in the [Tata Innovation Center](https://tech.cornell.edu/campus/tata-innovation-center) at Cornell Tech</div>
+### <div style="text-align:center">Grand Staircase in the [Tata Innovation Center](https://tech.cornell.edu/campus/tata-innovation-center)</div>
 
 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ask me about"...</h2>
 <ul class="ul-interests fa-ul">

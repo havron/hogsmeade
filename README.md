@@ -2,7 +2,7 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://havron.xyz)
 
 This repository holds the source files that I use to compile the webpages at
-<https://havron.xyz>.
+<https://havron.xyz> and <https://www.cs.cornell.edu/~havron/>. 
 
 ## Colophon
 The site's contents compile with [Hugo](https://gohugo.io/), a static site generator written in [Go](https://golang.org/).

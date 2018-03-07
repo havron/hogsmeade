@@ -17,9 +17,6 @@ Tags = [
 date = "2016-11-14T13:40:07-05:00"
 
 +++
-![xkcd](/img/ct-art.jpg)
-### <div style="text-align:center">Outside the [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center) at Cornell Tech</div>
-
 <h1>Mentors</h1>
 It takes an entire department to raise a student. 
 I'm eternally grateful to my mentors, 
