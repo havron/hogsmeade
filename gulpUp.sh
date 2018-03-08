@@ -7,3 +7,4 @@ npm install gulp-clean-css
 npm install gulp-concat gulp-rename gulp-uglify --save-dev
 #npm install gulp
 #npm install --global gulp
+npm install gulp-purifycss

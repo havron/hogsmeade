@@ -5,12 +5,13 @@ var runSequence = require('run-sequence');
 let cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-
+var purify = require('gulp-purifycss');
 
 gulp.task('styles', () => {
   return gulp.src(['static/css/*.css','!static/css/*.old.css'])
-    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(concat('style.min.css'))
+    .pipe(purify(['public/**/*.js', 'public/**/*.html']))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('public/css/'));
 });
 
