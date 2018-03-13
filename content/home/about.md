@@ -54,7 +54,7 @@ us."* - C.S. Lewis
 -->
 
 # Contacting Me
-_**{{<fa exclamation>}} notice: I am in New York City, February 28th-March 7th.**_
+<!-- _**{{<fa exclamation>}} notice: I am in New York City, February 28th-March 7th.**_ -->
 
 [You can book me](https://havron.youcanbook.me) for meetings 
 ([New York City](https://tech.cornell.edu/campus/bloomberg-center)/[Ithaca](https://www.cs.cornell.edu/information/ithaca)/video chat),
