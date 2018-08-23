@@ -21,7 +21,7 @@ weight = -1
   department = "tech.cornell.edu"
   departmentURL = "https://tech.cornell.edu"
   institution = "Security & Privacy Group"
-  group = "https://tech.cornell.edu/research/security-privacy/security-group"
+  group = "https://tech.cornell.edu/research/security-privacy/"
   year = "~2022"
   spin = "fa-spin"
 [[education.courses]]
