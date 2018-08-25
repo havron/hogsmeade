@@ -16,9 +16,9 @@ weight = -1
   title = "Academic Background"
 
 [[education.courses]]
-  course = "phd"
+  course = "phd+ms"
   courseURL = "https://www.cs.cornell.edu/phd"
-  department = "tech.cornell.edu"
+  department = "cornell tech"
   departmentURL = "https://tech.cornell.edu"
   institution = "Security & Privacy Group"
   group = "https://tech.cornell.edu/research/security-privacy/"
@@ -28,7 +28,7 @@ weight = -1
   course = "bs"
   courseURL = "https://engineering.virginia.edu/departments/computer-science/academics/computer-science-undergraduate-programs/"
   departmentURL = "https://www.cs.virginia.edu"
-  department = "cs.virginia.edu"
+  department = "u.va."
   institution = "Jefferson's Wheel"
   group = "https://www.jeffersonswheel.org/"
   year = "2017"
@@ -38,31 +38,34 @@ weight = -1
   title = "Research Interests"
   interests = [
     "Computer Security and Privacy",
-    "Adversarial Machine Learning and Data Privacy",
-    "Human-Computer Interaction and Usable Security"
+    "Privacy, Fairness, Accountability in Machine Learning",
+    "Information Science and Usable Security"
   ]
 +++
 
 # Welcome
 Hiya, thanks for using [tls](https://tlseminar.github.io/tls-future/)!
-I'm currently working with [Professor Tom Ristenpart](https://rist.tech.cornell.edu) and
-[Professor Nicki Dell](http://nixdell.com) on improving usable privacy and security technologies for victims of intimate partner violence. 
+I work on computer security and privacy issues in the context of intimate partner violence (IPV), as part of a multi-institutional [research team](https://www.ipvtechresearch.org).
+Professors [Tom Ristenpart](https://rist.tech.cornell.edu) and [Nicola
+Dell](http://nixdell.com)
+advise my doctoral work.
 
 <!--
 *"We are mirrors whose brightness is wholly derived from the sun that shines upon
 us."* - C.S. Lewis
 -->
 
+# Fall 2018 Office Hours
+I'm a teaching assistant for [CS 5435: Security & Privacy in the Wild](http://www.arijuels.com/teaching/cs-5435-fall-2018/). Come to
+Bloomberg 256 on Tuesday mornings (8:30am-9:30am) with questions!
+
 # Contacting Me
 <!-- _**{{<fa exclamation>}} notice: I am in New York City, February 28th-March 7th.**_ -->
 
 [You can book me](https://havron.youcanbook.me) for meetings 
-([New York City](https://tech.cornell.edu/campus/bloomberg-center)/[Ithaca](https://www.cs.cornell.edu/information/ithaca)/video chat),
-message me using [e-mail](/email/) (or more interestingly [with keybase](https://keybase.io/samh)), and copy/paste this [brief bio](/bio/) for talk ads and the like.
+([NYC](https://tech.cornell.edu/campus/bloomberg-center)/[Ithaca](https://www.cs.cornell.edu/information/ithaca)/video chat),
+message me using **[e-mail](/email/)** or **[keybase](https://keybase.io/samh)**, and copy/paste this [brief bio](/bio/) for talk ads and the like.
 
-## Blog Notice
-My [blog](/blog) is here to stay -- but I'm currently in the process of rebooting it, and 
-mirroring posts with [Medium](https://medium.com/@samhavron).
 
 
 <!--

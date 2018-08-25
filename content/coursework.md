@@ -25,6 +25,11 @@ courses I took along the way in grad school:
 <ul class="ul-interests fa-ul">
 <li>
 <i class="fa-li fa fa-university"></i>
+<a href="https://cornelltech.github.io/cs5785-fall-2018/" target="_blank" rel="noopener">CS 5785: Applied Machine Learning</a>, with 
+<a href="https://blogs.cornell.edu/techfaculty/serge-belongie/" target="_blank" rel="noopener">Prof. Serge Belongie</a>
+</li>
+<li>
+<i class="fa-li fa fa-university"></i>
 <a href="https://www.cs.cornell.edu/~shmat/courses/cs6431/" target="_blank" rel="noopener">CS 6431: Security and Privacy Technologies</a>, with 
 <a href="https://www.cs.cornell.edu/~shmat/" target="_blank" rel="noopener">Prof. Vitaly Shmatikov</a>
 and
@@ -48,6 +53,15 @@ TBD: [**Repository for remarkable
 teaching {{<fa github>}}**](https://github.com/havron/teaching) that I host on
 GitHub; therein lie some ideas and philosophies that are (perhaps)
 increasingly *rare*, *valuable*, and *meaningful* for world-class teaching.
+
+As an grad student, I TA'd the following courses:
+<ul class="ul-interests fa-ul">
+<li>
+<i class="fa-li fa fa-university"></i>
+CS 5435: [Security and Privacy in the
+Wild](http://www.arijuels.com/teaching/cs-5435-fall-2018/) (1 semester: Fall 2018)
+</li>
+</ul>
 
 As an undergrad, I TA'd the following courses:
 <ul class="ul-interests fa-ul">

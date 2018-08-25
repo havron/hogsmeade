@@ -21,6 +21,10 @@ Categories = [
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
+I'm part of the [NUMTOT subculture](https://www.nytimes.com/2018/08/10/style/numtot-urbanism-memes.html).</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
 I'm [building an IoT paradise](https://github.com/havron/mubashir) for myself in my infinite spare time. What are your IoT dreams, or [paranoia](https://www.theverge.com/2017/10/25/16538834/amazon-key-in-home-delivery-unlock-door-prime-cloud-cam-smart-lock)?
 </li>
 
@@ -35,7 +39,7 @@ I spew [cringeworthy quotes](https://quotes.cs.cornell.edu/speaker/Sam-Havron/).
 </li>
 
 <li> <i class="fa-li fa fa-hand-o-right"></i> 
-I highly encourage all typists to try out and use ergonomic mechanical keyboards!
+I'm a mechanical keyboard enthusiast!
 Let's geek out together over actuation methods and switch types.
 </li>
 
@@ -62,11 +66,7 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 [John Handley Marching Judges Band](http://jhhs.wps.k12.va.us/band.html) in 2014.</li>
 
 ## some cool people/things (_not_ implicit endorsements!) 
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-[ithaca {{<fa headphones>}}, via {{<fa spotify>}}](https://open.spotify.com/user/sgh7cc/playlist/3MHDpggfzj9bwzR2v9SRnH)
-</i>
-
+### in general
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 [jacksepticeye](https://www.youtube.com/user/jacksepticeye)
@@ -74,15 +74,22 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[aladdin's](http://aladdinsnaturaleateryithacany.com/36238)
-</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
 [Cal Newport](http://calnewport.com)
 </li>
 
-</ul>
+### in Ithaca, NY
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[aladdin's](http://aladdinsnaturaleateryithacany.com/36238)
+</li>
 
-<img src="/img/cmb.jpg">
-## <div style="text-align:center">*the CMB in NYC, Thanksgiving 2015*</div>
+### in NYC
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[NY Pizza Suprema](http://nypizzasuprema.com/)
+</li>
+
+
+(more to come.)
+
+</ul>

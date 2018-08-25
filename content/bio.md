@@ -23,13 +23,12 @@ a PDF, current as of latest commit.
 # copy/paste this blurb for talks, etc
 **Sam Havron is a PhD student in computer science at Cornell University; he is
 in residence at Cornell Tech on Roosevelt Island in New York City. 
-Sam's research interests include topics in computer security & privacy,
-programming languages, applied cryptography, machine learning, 
-and interdisciplinary efforts among these areas.
-Recently, this has included building systems that preserve the privacy and safety of end-users
-while also increasing transparency and responsibility of providers.
+He currently works on computer
+security and privacy issues in the context of intimate partner violence (IPV).
+His research has been published at top security conferences such as IEEE S&P, and 
+featured by media outlets including the New York Times.
 When not staring at metal rectangles full of little lights, 
-Sam can often be spotted reading books, or biking.**
+Sam can often be spotted reading books or exploring new places.**
 
 _Thanks to [Jonathan McCune](https://users.ece.cmu.edu/~jmmccune/bio.html) for
 inspiring this template_.
