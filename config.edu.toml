@@ -58,7 +58,7 @@ dateFormat = "Monday, 2 January, 2006"
   addressa = "2 West Loop Road"
   city = "New York, NY 10044"
   #address = "302 Gates Hall, Cornell University, Ithaca NY 14853"
-  avatar = "/img/me2.jpg"
+  avatar = "/img/me.jpg"
   #email = "echo @cs.cornell.edu | sed 's/^/havron/'"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
