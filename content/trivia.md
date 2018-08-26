@@ -65,7 +65,7 @@ I marched in the Macy's Thanksgiving Day Parade in New York City with the
 in 2015, as well as the St. Patrick's Day Parade in Chicago with the 
 [John Handley Marching Judges Band](http://jhhs.wps.k12.va.us/band.html) in 2014.</li>
 
-## some cool people/things (_not_ implicit endorsements!) 
+## some cool people/things (not endorsements) 
 ### in general
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
@@ -78,17 +78,66 @@ in 2015, as well as the St. Patrick's Day Parade in Chicago with the
 </li>
 
 ### in Ithaca, NY
+#### adventure
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[aladdin's](http://aladdinsnaturaleateryithacany.com/36238)
+[Beebe
+Lake](https://www.cornellbotanicgardens.org/our-gardens/natural-areas/beebe).
+Great for running!
+</li>
+
+#### foods
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Aladdin's](http://aladdinsnaturaleateryithacany.com/36238)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+ [Hawi Ethiopian Cuisine](https://www.hawiithaca.com/)
 </li>
 
 ### in NYC
+#### foods
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
 [NY Pizza Suprema](http://nypizzasuprema.com/)
 </li>
 
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Taste Good](https://www.yelp.com/biz/taste-good-malaysian-cuisine-elmhurst)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Maharlika](http://maharlikanyc.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Hale & Hearty Soups](https://www.haleandhearty.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Samudra](https://samudrarestaurant.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Phayul](http://places.singleplatform.com/phayul-/menu?ref=google)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Barilla](http://www.barillarestaurants.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Xi'an Famous Foods](https://www.xianfoods.com/)
+</li>
 
 (more to come.)
 

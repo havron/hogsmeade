@@ -14,31 +14,17 @@ reddit_underscored_name = ""
 title = "e-mail"
 
 +++
-# _Use any of these to contact me! Totally up to you._
-# Personal addresses
-## sam@havron.xyz
+# _Use any of these to contact me:_
+`sgh65@cornell.edu`
 
-## s@m.havron.xyz ([domain hack](http://xona.com/2004/11/03.html))
+`havron@cs.cornell.edu`
+
+`sam@havron.xyz`
+
+`s@m.havron.xyz` ([domain hack](http://xona.com/2004/11/03.html))
 
 
-# "Easier to Remember" academic address
-## havron@cs.cornell.edu
-
-**The mail forwarding service powering this
-address is unwieldy**:
-usually it takes a minute or so for me to get e-mails sent here, 
-and in the worst case, I do not get e-mails for 
-_an hour or more_ after the initial timestamp! Yikes!
-
-## "Faster Delivery" academic address
-## sgh65@cornell.edu
-
-**I will get your message instantaneously** if you send it to this perhaps "less-memorable" address; 
-it's my initials concatenated with the year my university (1865) or CS
-department (1965) was founded, modulo 100.
-
-## Nota Bene: The E-mail Obfuscation Game
-### Should you play the game?
+## Shouldn't I be obfuscating my above addresses in some fashion?
 My addresses are easily harvested; for now,
 I allow this because I want to build a better understanding of the detriments
  of obfuscation strategies to user-friendliness (including 
@@ -49,21 +35,17 @@ me](https://www.theguardian.com/technology/2010/dec/21/keeping-email-address-sec
 
 Most harvesters use sophisticated regex (and in the
 case of addresses embedded in images, OCR)
-techniques to reconstruct e-mail addresses. More aggressive adversaries might
+techniques to reconstruct e-mail addresses. More deep-pocketed adversaries might
 **simply hire humans on Amazon's Mechanical Turk as harvesters**, which breaks virtually all obfuscation strategies!
-
-If you are planning on adopting an obfuscation strategy of your own, please first consider 
-interesting [honeypot](https://en.wikipedia.org/wiki/Honeypot\_(computing)) experiments you could run through posting
-targeted aliases of your e-mail address publicly...
 
 ### More Optimal Obfuscation Strategies
 For anyone interested in playing the e-mail obfuscation game, 
 there's a [myriad of
 strategies](https://superuser.com/questions/235937/does-e-mail-address-obfuscation-actually-work)
  that often trade user-friendliness for 
-stronger obfuscation guarantees (e.g. e-mail addresses hidden behind Google CAPTCHAs seem pretty robust).
+stronger obfuscation guarantees (e.g. e-mail addresses hidden behind Google CAPTCHAs seem pretty robust, but are a burden on legitimate users).
 
-Short of directly inviting people to contact me, I have not 
+Short of only inviting people to contact me, I have not 
 come up with a reliable and user-friendly obfuscation strategy 
 to protect myself from the inevitable crowd-source-powered (human) harvesters. 
 My strategy would likely entail a written description of how to construct my address,

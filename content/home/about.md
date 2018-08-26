@@ -43,28 +43,26 @@ weight = -1
   ]
 +++
 
-# Welcome
-Hiya, thanks for using [tls](https://tlseminar.github.io/tls-future/)!
-I work on computer security and privacy issues in the context of intimate partner violence (IPV), as part of a multi-institutional [research team](https://www.ipvtechresearch.org).
+## I work on
+computer security and privacy issues in the context of intimate partner violence (IPV), as part of a multi-institutional [research team](https://www.ipvtechresearch.org).
 Professors [Tom Ristenpart](https://rist.tech.cornell.edu) and [Nicola
 Dell](http://nixdell.com)
-advise my doctoral work.
+advise [my research](/research).
 
 <!--
 *"We are mirrors whose brightness is wholly derived from the sun that shines upon
 us."* - C.S. Lewis
 -->
 
-# Fall 2018 Office Hours
+## Fall 2018 Office Hours
 I'm a teaching assistant for [CS 5435: Security & Privacy in the Wild](http://www.arijuels.com/teaching/cs-5435-fall-2018/). Come to
 Bloomberg 256 on Tuesday mornings (8:30am-9:30am) with questions!
 
-# Contacting Me
+## Contacting me
 <!-- _**{{<fa exclamation>}} notice: I am in New York City, February 28th-March 7th.**_ -->
 
-[You can book me](https://havron.youcanbook.me) for meetings 
-([NYC](https://tech.cornell.edu/campus/bloomberg-center)/[Ithaca](https://www.cs.cornell.edu/information/ithaca)/video chat),
-message me using **[e-mail](/email/)** or **[keybase](https://keybase.io/samh)**, and copy/paste this [brief bio](/bio/) for talk ads and the like.
+[You can book me](https://havron.youcanbook.me) for meetings ([NYC](https://tech.cornell.edu/campus/bloomberg-center), [Ithaca](https://www.cs.cornell.edu/information/ithaca), or video),
+message me using **[email](/email/)** or **[keybase](https://keybase.io/samh)**, and copy/paste this [brief bio](/bio/) for talk ads and the like.
 
 
 
