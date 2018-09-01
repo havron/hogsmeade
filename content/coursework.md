@@ -15,11 +15,11 @@ title = "courses"
 
 +++
 <img src="/img/bloomberg.jpg">
-### <div style="text-align:center">Inside the [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center)</div>
+### <div style="text-align:center">The [Bloomberg Center](https://tech.cornell.edu/campus/bloomberg-center)</div>
 
 
 # enrolled
-I spend most of my time on my [research](/research/) -- here are a few
+I spend most of my time on [research](/research/) -- here are a few
 courses I took along the way in grad school:
 
 <ul class="ul-interests fa-ul">
