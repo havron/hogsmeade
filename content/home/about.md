@@ -39,7 +39,7 @@ weight = -1
   interests = [
     "Computer Security and Privacy",
     "Privacy, Fairness, Accountability in Machine Learning",
-    "Information Science and Usable Security"
+    "Human-Centered Security"
   ]
 +++
 
