@@ -1,5 +1,5 @@
 # Sam Havron, 12 December 2016
-.PHONY: xyz edu xyzcompile educompile github aws cornell
+.PHONY: xyz dev edu xyzcompile devcompile educompile github aws cornell
 THEME=academic
 CNAME=havron.xyz
 DISTRIBUTION_ID=EBRLR8UIL2LHP
@@ -7,12 +7,19 @@ MSG=rebuilt ${CNAME}
 
 xyz:
 	hugo server --theme=$(THEME) --watch --buildDrafts --config config.xyz.toml
+dev:
+	hugo server --theme=$(THEME) --watch --buildDrafts --config config.dev.toml
 
 edu:
 	hugo server --theme=$(THEME) --watch --buildDrafts --config config.edu.toml
 
 xyzcompile:
 	gulp xyzbuild
+	find public/ -type f -exec sed -i 's/_blank">/_blank" rel="noopener">/g' {} +
+	./plainify.sh
+
+devcompile:
+	gulp devbuild
 	find public/ -type f -exec sed -i 's/_blank">/_blank" rel="noopener">/g' {} +
 	./plainify.sh
 
@@ -27,6 +34,8 @@ github: xyzcompile
 	git add -A
 	git commit -m "${MSG}"
 	git push origin master
+
+ghpages: devcompile
 
 aws: github
 	@echo "\nSyncing to ${CNAME} on Amazon Web Services...\n\n"

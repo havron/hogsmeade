@@ -22,6 +22,13 @@ gulp.task('xyzscripts', function() {
         .pipe(gulp.dest('public/js/'));
 });
 
+gulp.task('devscripts', function() {
+    return gulp.src(['static/js/*.js','!static/js/*.edu.js'])
+        .pipe(uglify())
+        .pipe(concat('scripts.min.js'))
+        .pipe(gulp.dest('public/js/'));
+});
+
 gulp.task('eduscripts', function() {
     return gulp.src(['static/js/*.js','!static/js/*.xyz.js'])
         .pipe(uglify())
@@ -30,6 +37,18 @@ gulp.task('eduscripts', function() {
 });
 
 gulp.task('xyzgenerate-service-worker', function(callback) {
+  var path = require('path');
+  var swPrecache = require('sw-precache');
+  var rootDir = 'public';
+
+  swPrecache.write(path.join(rootDir, 'service-worker.js'), {
+    /** This is the place where you could change / make the patterns on which files should be going into precache **/
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,eot,svg,ttf,woff,woff2,otf}'],
+    stripPrefix: rootDir
+  }, callback);
+});
+
+gulp.task('devgenerate-service-worker', function(callback) {
   var path = require('path');
   var swPrecache = require('sw-precache');
   var rootDir = 'public';
@@ -60,6 +79,12 @@ gulp.task('hugo:xyzbuild', function() {
     return result;
 });
 
+gulp.task('hugo:devbuild', function() {
+var result = exec("hugo --config config.dev.toml", {encoding: 'utf-8'});
+    gutil.log('hugo:build: \n' + result);
+    return result;
+});
+
 gulp.task('hugo:edubuild', function() {
 	var result = exec("hugo --config config.edu.toml", {encoding: 'utf-8'});
     gutil.log('hugo:build: \n' + result);
@@ -84,6 +109,15 @@ gulp.task('xyzbuild', function(callback) {
               'xyzscripts',
               'styles',
               'xyzgenerate-service-worker',
+              callback);
+});
+
+gulp.task('devbuild', function(callback) {
+  runSequence('hugo:clean',
+              'hugo:devbuild',
+              'devscripts',
+              'styles',
+              'devgenerate-service-worker',
               callback);
 });
 

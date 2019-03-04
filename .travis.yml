@@ -1,0 +1,49 @@
+dist: trusty
+
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+
+git:
+    submodules: false
+
+env:
+  global:
+  - HUGO_VERSION=0.40  # set in the environment to make it easy 
+
+before_install:
+  - mkdir -p bin
+  - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o bin/hugo.tar.gz
+  - tar xzvvf bin/hugo.tar.gz -C ./bin
+
+before_script:
+  - npm install -g gulp-cli
+  - npm install --save-dev sw-precache
+  - npm install --save-dev run-sequence
+  - npm install gulp-batch
+  - npm install gulp-clean-css
+  - npm install gulp-concat gulp-rename gulp-uglify --save-dev
+  - npm install gulp-purifycss
+  # npm install gulp
+  # npm install gulp-util
+  # npm install run-sequence
+  # npm install --save-dev gulp@3.9.1
+
+script:
+  - gulp devbuild 
+  - find public/ -type f -exec sed -i 's/_blank">/_blank" rel="noopener">/g' {} +
+  - bash ./plainify.sh
+
+deploy:
+  local_dir: public # Default static site output dir for Hugo
+  repo: havron/havron.github.io # This is the slug of the repo you want to deploy your site to
+  target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
+  email: sgh65@cornell.edu
+  name: "havron"
+  keep-history: false
+  on:
+    branch: master
