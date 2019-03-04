@@ -80,7 +80,7 @@ gulp.task('hugo:xyzbuild', function() {
 });
 
 gulp.task('hugo:devbuild', function() {
-var result = exec("hugo --config config.dev.toml", {encoding: 'utf-8'});
+var result = exec("./hugo --config config.dev.toml", {encoding: 'utf-8'});
     gutil.log('hugo:build: \n' + result);
     return result;
 });
