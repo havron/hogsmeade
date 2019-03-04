@@ -16,16 +16,18 @@ before_install:
   - mkdir -p bin
   - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o bin/hugo.tar.gz
   - tar xzvvf bin/hugo.tar.gz -C ./bin
+  - apt install pandoc
 
 before_script:
   - rm -rf node_modules
-  - npm install -g gulp-cli
+  - npm install --save-dev gulp@3.9.1
   - npm install --save-dev sw-precache
   - npm install --save-dev run-sequence
   - npm install gulp-batch
   - npm install gulp-clean-css
   - npm install gulp-concat gulp-rename gulp-uglify --save-dev
   - npm install gulp-purifycss
+  #- npm install -g gulp-cli
   # npm install gulp
   # npm install gulp-util
   # npm install run-sequence
