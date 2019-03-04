@@ -18,6 +18,7 @@ before_install:
   - tar xzvvf bin/hugo.tar.gz -C ./bin
 
 before_script:
+  - rm -rf node_modules
   - npm install -g gulp-cli
   - npm install --save-dev sw-precache
   - npm install --save-dev run-sequence
