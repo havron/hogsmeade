@@ -13,9 +13,8 @@ env:
   - HUGO_VERSION=0.40  # set in the environment to make it easy 
 
 before_install:
-  - mkdir -p bin
-  - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o bin/hugo.tar.gz
-  - tar xzvvf bin/hugo.tar.gz -C ./bin
+  - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o hugo.tar.gz
+  - tar xzvvf hugo.tar.gz -C ./
   - sudo apt-get install pandoc
 
 before_script:
