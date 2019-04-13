@@ -45,6 +45,6 @@ deploy:
   github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
   email: sgh65@cornell.edu
   name: "havron"
-  keep-history: false
+  keep-history: true
   on:
     branch: master
