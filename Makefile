@@ -13,7 +13,7 @@ dev:
 edu:
 	hugo server --theme=$(THEME) --watch --buildDrafts --config config.edu.toml
 
-all: aws ghpages cornell
+all: aws cornell # dev by travis
 
 xyzcompile:
 	gulp xyzbuild
