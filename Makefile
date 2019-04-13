@@ -49,7 +49,7 @@ aws: github
 
 RSYNCARGS := --compress --recursive --checksum --itemize-changes \
 	--delete -e ssh
-DEST := cslinux:/people/sgh65/
+DEST := sgh65@cslinux.cs.cornell.edu:/people/sgh65/
 
 cornell: educompile
 	# vpnc-connect, first, if not on campus

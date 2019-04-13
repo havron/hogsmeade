@@ -21,61 +21,34 @@ Categories = [
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I'm part of the [NUMTOT subculture](https://www.nytimes.com/2018/08/10/style/numtot-urbanism-memes.html).</li>
+[The NUMTOT subculture](https://www.nytimes.com/2018/08/10/style/numtot-urbanism-memes.html)</li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I'm [building an IoT paradise](https://github.com/havron/mubashir) for myself in my infinite spare time. What are your IoT dreams, or [paranoia](https://www.theverge.com/2017/10/25/16538834/amazon-key-in-home-delivery-unlock-door-prime-cloud-cam-smart-lock)?
+IoT [pros](https://github.com/havron/mubashir) and [cons](https://www.theverge.com/2017/10/25/16538834/amazon-key-in-home-delivery-unlock-door-prime-cloud-cam-smart-lock)
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I am left-handed, and I own an adversarial mug that will spill its contents on any who try to drink
-from it with their right hand :-)</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-I spew [cringeworthy quotes](https://quotes.cs.cornell.edu/speaker/Sam-Havron/).
-</li>
-
-<li> <i class="fa-li fa fa-hand-o-right"></i> 
-I'm a mechanical keyboard enthusiast!
-Let's geek out together over actuation methods and switch types.
+Vegetarianism
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-From infancy to present, I have been privileged to be able to maintain an entirely vegetarian diet.</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-[Language is cool](https://twitter.com/effies/status/867396248919134208).
+Left-handedness
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I have personally been a victim of [this crucial
-design flaw](https://www.youtube.com/watch?v=TudFAEUkR9Y). It was horrifying.
+[Design flaws](https://www.youtube.com/watch?v=TudFAEUkR9Y).
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-I marched in the Macy's Thanksgiving Day Parade in New York City with the 
+The time I marched in the Macy's Thanksgiving Day Parade in NYC with the 
 [Cavalier Marching Band](http://www.cavaliermarchingband.com/) 
-in 2015, as well as the St. Patrick's Day Parade in Chicago with the 
-[John Handley Marching Judges Band](http://jhhs.wps.k12.va.us/band.html) in 2014.</li>
 
-## some cool people/things (not endorsements) 
-### in general
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-[jacksepticeye](https://www.youtube.com/user/jacksepticeye)
-</li>
-
-<li>
-<i class="fa-li fa fa-hand-o-right"></i>
-[Cal Newport](http://calnewport.com)
-</li>
+## local attractions
 
 ### in Ithaca, NY
 #### adventure
@@ -99,9 +72,20 @@ Great for running!
 
 ### in NYC
 #### foods
+
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[NY Pizza Suprema](http://nypizzasuprema.com/)
+[Wu's Wonton King](http://www.wuswontonking.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Café Henri](https://www.henrinyc.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Alley 41 蜀巷](https://www.alley41.com/)
 </li>
 
 <li>
@@ -111,12 +95,12 @@ Great for running!
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Maharlika](http://maharlikanyc.com/)
+[Mother's Ruin](https://www.mothersruinnyc.com/)
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Hale & Hearty Soups](https://www.haleandhearty.com/)
+[Maharlika](http://maharlikanyc.com/)
 </li>
 
 <li>
@@ -126,12 +110,17 @@ Great for running!
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Phayul](http://places.singleplatform.com/phayul-/menu?ref=google)
+[Nan Xiang Xiao Long Bao](http://www.nan-xiang.com/)
 </li>
 
 <li>
 <i class="fa-li fa fa-hand-o-right"></i>
-[Barilla](http://www.barillarestaurants.com/)
+[NY Pizza Suprema](http://nypizzasuprema.com/)
+</li>
+
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Phayul](http://places.singleplatform.com/phayul-/menu?ref=google)
 </li>
 
 <li>
@@ -139,6 +128,9 @@ Great for running!
 [Xi'an Famous Foods](https://www.xianfoods.com/)
 </li>
 
-(more to come.)
+<li>
+<i class="fa-li fa fa-hand-o-right"></i>
+[Seva](http://sevaindianrestaurant.com/)
+</li>
 
 </ul>
