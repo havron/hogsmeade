@@ -1,4 +1,5 @@
 # Web
+[![Build Status](https://travis-ci.org/havron/web.svg?branch=master)](https://travis-ci.org/havron/web)
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://havron.xyz)
 
 This repository holds the source files that I use to compile the webpages at

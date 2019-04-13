@@ -1,5 +1,5 @@
 # Sam Havron, 12 December 2016
-.PHONY: xyz dev edu xyzcompile devcompile educompile github aws cornell
+.PHONY: all xyz dev edu xyzcompile devcompile educompile github aws cornell
 THEME=academic
 CNAME=havron.xyz
 DISTRIBUTION_ID=EBRLR8UIL2LHP
@@ -12,6 +12,8 @@ dev:
 
 edu:
 	hugo server --theme=$(THEME) --watch --buildDrafts --config config.edu.toml
+
+all: aws ghpages cornell
 
 xyzcompile:
 	gulp xyzbuild
